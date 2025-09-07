@@ -3,6 +3,7 @@ Allow: /
 
 # Sitemap
 Sitemap: https://theclickandflush.com/sitemap.xml
+Sitemap: https://theclickandflush.com/sitemap_index.xml
 
 # Archivos específicos
 Allow: /dataset.html

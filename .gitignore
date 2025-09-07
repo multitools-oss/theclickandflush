@@ -1,0 +1,32 @@
+# Node & tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+.cache/
+.nyc_output/
+coverage/
+
+# Env & local config
+.env
+.env.*
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+
+# Editors/OS
+.idea/
+.vscode/
+*.swp
+
+# Temp files
+tmp/
+.tmp/
+*.tmp
+
+# Build outputs (keep CSS output committed for deployment)
+# dist/
+# Do NOT ignore assets/output.css; it is used by the static site

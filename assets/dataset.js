@@ -64,7 +64,9 @@ class DatasetViewer {
             this.currentDatasetInfo = this.findDatasetInCatalog(datasetId);
             
             if (!this.currentDatasetInfo) {
-                throw new Error(`Dataset con ID "${datasetId}" no encontrado en el catálogo`);
+                // Redirigir a 404 si el ID no existe
+                window.location.href = '/404.html';
+                return;
             }
             
             // Load dataset data
@@ -760,8 +762,12 @@ class DatasetViewer {
     }
     
     updateMetadata() {
-        // Update title
+        // Update title (H1 and document)
         this.elements.title.textContent = this.currentDatasetInfo.title;
+        try {
+            const siteName = 'Observatorio de Estadísticas';
+            document.title = `${this.currentDatasetInfo.title} - ${siteName}`;
+        } catch (_) { /* noop */ }
         
         // Update metadata section
         if (this.datasetData.metadata) {
@@ -785,9 +791,120 @@ class DatasetViewer {
         this.elements.downloadLink.href = this.currentDatasetInfo.file_path;
         this.elements.downloadLink.download = `${this.currentDatasetInfo.id}.json`;
         
+        // Update canonical URL to include dataset id for SEO
+        try {
+            const canonicalHref = `${window.location.origin}/dataset.html?id=${this.currentDatasetInfo.id}`;
+            let link = document.querySelector('link[rel="canonical"]');
+            if (!link) {
+                link = document.createElement('link');
+                link.setAttribute('rel', 'canonical');
+                document.head.appendChild(link);
+            }
+            link.setAttribute('href', canonicalHref);
+        } catch (_) { /* noop */ }
+
+        // Update meta description and social tags
+        try {
+            const desc = (this.datasetData.metadata && this.datasetData.metadata.description) || this.currentDatasetInfo.description || '';
+            let metaDesc = document.querySelector('meta[name="description"]');
+            if (!metaDesc) {
+                metaDesc = document.createElement('meta');
+                metaDesc.setAttribute('name', 'description');
+                document.head.appendChild(metaDesc);
+            }
+            metaDesc.setAttribute('content', desc);
+
+            const title = this.currentDatasetInfo.title;
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.setAttribute('content', title);
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc) ogDesc.setAttribute('content', desc);
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.setAttribute('content', title);
+            const twDesc = document.querySelector('meta[name="twitter:description"]');
+            if (twDesc) twDesc.setAttribute('content', desc);
+        } catch (_) { /* noop */ }
+
+        // Inject Dataset JSON-LD for better rich results
+        try {
+            this.injectDatasetJsonLd();
+        } catch (_) { /* noop */ }
+
         // Show metadata
         this.elements.metadata.classList.remove('hidden');
         this.elements.datasetInfo.classList.remove('hidden');
+    }
+
+    injectDatasetJsonLd() {
+        const baseUrl = window.location.origin;
+        const canonicalHref = `${baseUrl}/dataset.html?id=${this.currentDatasetInfo.id}`;
+        const desc = (this.datasetData.metadata && this.datasetData.metadata.description) || this.currentDatasetInfo.description || '';
+        const updated = (this.datasetData.metadata && this.datasetData.metadata.updated) || this.currentDatasetInfo.last_updated || '';
+        const temporal = (this.datasetData.metadata && this.datasetData.metadata.temporal_coverage) || this.currentDatasetInfo.temporal_coverage || '';
+        const spatial = (this.datasetData.metadata && this.datasetData.metadata.spatial_coverage) || this.currentDatasetInfo.spatial_coverage || '';
+        const tags = Array.isArray(this.currentDatasetInfo.tags) ? this.currentDatasetInfo.tags : [];
+        const contentUrl = `${baseUrl}/${this.currentDatasetInfo.file_path.replace(/^\//, '')}`;
+
+        const json = {
+            "@context": "https://schema.org",
+            "@type": "Dataset",
+            name: this.currentDatasetInfo.title,
+            description: desc,
+            url: canonicalHref,
+            identifier: this.currentDatasetInfo.id,
+            keywords: tags,
+            license: "https://creativecommons.org/licenses/by/4.0/",
+            isAccessibleForFree: true,
+            creator: {
+                "@type": "Organization",
+                name: "Observatorio de Estadísticas",
+                url: baseUrl
+            },
+            publisher: {
+                "@type": "Organization",
+                name: "Observatorio de Estadísticas",
+                url: baseUrl
+            },
+            dateModified: updated,
+            temporalCoverage: temporal,
+            spatialCoverage: spatial,
+            distribution: {
+                "@type": "DataDownload",
+                contentUrl,
+                encodingFormat: "application/json"
+            }
+        };
+
+        // variableMeasured (derive from dataset fields when available)
+        try {
+            if (this.datasetData && Array.isArray(this.datasetData.fields)) {
+                const blocked = new Set(['year', 'año', 'anio', 'fecha', 'date', 'time']);
+                const variables = this.datasetData.fields
+                    .map(f => (f && (f.alias || f.name || f.id || '').toString().trim()))
+                    .filter(v => v && !blocked.has(v.toLowerCase()))
+                    .slice(0, 12); // keep it concise
+                if (variables.length) {
+                    json.variableMeasured = variables;
+                }
+            }
+        } catch (_) { /* noop */ }
+
+        // measurementTechnique when provided in metadata
+        try {
+            const technique = this.datasetData?.metadata?.measurement_technique || this.datasetData?.metadata?.methodology;
+            if (technique && typeof technique === 'string') {
+                json.measurementTechnique = technique;
+            }
+        } catch (_) { /* noop */ }
+
+        let script = document.getElementById('jsonld-dataset');
+        if (!script) {
+            script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.id = 'jsonld-dataset';
+            document.head.appendChild(script);
+        }
+        script.textContent = JSON.stringify(json);
     }
     
     updateFieldsList() {
