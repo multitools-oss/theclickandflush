@@ -875,6 +875,28 @@ class DatasetViewer {
             }
         };
 
+        // variableMeasured (derive from dataset fields when available)
+        try {
+            if (this.datasetData && Array.isArray(this.datasetData.fields)) {
+                const blocked = new Set(['year', 'año', 'anio', 'fecha', 'date', 'time']);
+                const variables = this.datasetData.fields
+                    .map(f => (f && (f.alias || f.name || f.id || '').toString().trim()))
+                    .filter(v => v && !blocked.has(v.toLowerCase()))
+                    .slice(0, 12); // keep it concise
+                if (variables.length) {
+                    json.variableMeasured = variables;
+                }
+            }
+        } catch (_) { /* noop */ }
+
+        // measurementTechnique when provided in metadata
+        try {
+            const technique = this.datasetData?.metadata?.measurement_technique || this.datasetData?.metadata?.methodology;
+            if (technique && typeof technique === 'string') {
+                json.measurementTechnique = technique;
+            }
+        } catch (_) { /* noop */ }
+
         let script = document.getElementById('jsonld-dataset');
         if (!script) {
             script = document.createElement('script');
