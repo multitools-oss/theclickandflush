@@ -52,14 +52,6 @@ function generateMainSitemap(catalog) {
         <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/?lang=en" />
     </url>
 
-    <!-- Visualización de datasets -->
-    <url>
-        <loc>${BASE_URL}/dataset.html</loc>
-        <lastmod>${currentDate}</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
 `;
 
     // Agregar datasets
@@ -69,8 +61,7 @@ function generateMainSitemap(catalog) {
             const changefreq = dataset.update_frequency === 'Monthly' ? 'monthly' : 
                              dataset.update_frequency === 'Weekly' ? 'weekly' : 'monthly';
             
-            const filePath = dataset.file_path.startsWith('/') ? dataset.file_path.substring(1) : dataset.file_path;
-            const datasetId = path.basename(filePath, '.json');
+            const datasetId = dataset.id;
             
             xml += `    <!-- ${dataset.title} -->
     <url>

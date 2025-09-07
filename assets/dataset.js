@@ -760,8 +760,12 @@ class DatasetViewer {
     }
     
     updateMetadata() {
-        // Update title
+        // Update title (H1 and document)
         this.elements.title.textContent = this.currentDatasetInfo.title;
+        try {
+            const siteName = 'Observatorio de Estadísticas';
+            document.title = `${this.currentDatasetInfo.title} - ${siteName}`;
+        } catch (_) { /* noop */ }
         
         // Update metadata section
         if (this.datasetData.metadata) {
@@ -785,6 +789,18 @@ class DatasetViewer {
         this.elements.downloadLink.href = this.currentDatasetInfo.file_path;
         this.elements.downloadLink.download = `${this.currentDatasetInfo.id}.json`;
         
+        // Update canonical URL to include dataset id for SEO
+        try {
+            const canonicalHref = `${window.location.origin}/dataset.html?id=${this.currentDatasetInfo.id}`;
+            let link = document.querySelector('link[rel="canonical"]');
+            if (!link) {
+                link = document.createElement('link');
+                link.setAttribute('rel', 'canonical');
+                document.head.appendChild(link);
+            }
+            link.setAttribute('href', canonicalHref);
+        } catch (_) { /* noop */ }
+
         // Show metadata
         this.elements.metadata.classList.remove('hidden');
         this.elements.datasetInfo.classList.remove('hidden');
