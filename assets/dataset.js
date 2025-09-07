@@ -64,7 +64,9 @@ class DatasetViewer {
             this.currentDatasetInfo = this.findDatasetInCatalog(datasetId);
             
             if (!this.currentDatasetInfo) {
-                throw new Error(`Dataset con ID "${datasetId}" no encontrado en el catálogo`);
+                // Redirigir a 404 si el ID no existe
+                window.location.href = '/404.html';
+                return;
             }
             
             // Load dataset data
@@ -799,6 +801,28 @@ class DatasetViewer {
                 document.head.appendChild(link);
             }
             link.setAttribute('href', canonicalHref);
+        } catch (_) { /* noop */ }
+
+        // Update meta description and social tags
+        try {
+            const desc = (this.datasetData.metadata && this.datasetData.metadata.description) || this.currentDatasetInfo.description || '';
+            let metaDesc = document.querySelector('meta[name="description"]');
+            if (!metaDesc) {
+                metaDesc = document.createElement('meta');
+                metaDesc.setAttribute('name', 'description');
+                document.head.appendChild(metaDesc);
+            }
+            metaDesc.setAttribute('content', desc);
+
+            const title = this.currentDatasetInfo.title;
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.setAttribute('content', title);
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc) ogDesc.setAttribute('content', desc);
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.setAttribute('content', title);
+            const twDesc = document.querySelector('meta[name="twitter:description"]');
+            if (twDesc) twDesc.setAttribute('content', desc);
         } catch (_) { /* noop */ }
 
         // Show metadata

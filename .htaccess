@@ -51,6 +51,9 @@
 # Redirecciones amigables (si es necesario)
 RewriteEngine On
 
-# Forzar HTTPS (si tienes SSL)
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Forzar HTTPS (producción con SSL)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Página 404 personalizada
+ErrorDocument 404 /404.html
