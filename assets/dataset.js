@@ -825,9 +825,64 @@ class DatasetViewer {
             if (twDesc) twDesc.setAttribute('content', desc);
         } catch (_) { /* noop */ }
 
+        // Inject Dataset JSON-LD for better rich results
+        try {
+            this.injectDatasetJsonLd();
+        } catch (_) { /* noop */ }
+
         // Show metadata
         this.elements.metadata.classList.remove('hidden');
         this.elements.datasetInfo.classList.remove('hidden');
+    }
+
+    injectDatasetJsonLd() {
+        const baseUrl = window.location.origin;
+        const canonicalHref = `${baseUrl}/dataset.html?id=${this.currentDatasetInfo.id}`;
+        const desc = (this.datasetData.metadata && this.datasetData.metadata.description) || this.currentDatasetInfo.description || '';
+        const updated = (this.datasetData.metadata && this.datasetData.metadata.updated) || this.currentDatasetInfo.last_updated || '';
+        const temporal = (this.datasetData.metadata && this.datasetData.metadata.temporal_coverage) || this.currentDatasetInfo.temporal_coverage || '';
+        const spatial = (this.datasetData.metadata && this.datasetData.metadata.spatial_coverage) || this.currentDatasetInfo.spatial_coverage || '';
+        const tags = Array.isArray(this.currentDatasetInfo.tags) ? this.currentDatasetInfo.tags : [];
+        const contentUrl = `${baseUrl}/${this.currentDatasetInfo.file_path.replace(/^\//, '')}`;
+
+        const json = {
+            "@context": "https://schema.org",
+            "@type": "Dataset",
+            name: this.currentDatasetInfo.title,
+            description: desc,
+            url: canonicalHref,
+            identifier: this.currentDatasetInfo.id,
+            keywords: tags,
+            license: "https://creativecommons.org/licenses/by/4.0/",
+            isAccessibleForFree: true,
+            creator: {
+                "@type": "Organization",
+                name: "Observatorio de Estadísticas",
+                url: baseUrl
+            },
+            publisher: {
+                "@type": "Organization",
+                name: "Observatorio de Estadísticas",
+                url: baseUrl
+            },
+            dateModified: updated,
+            temporalCoverage: temporal,
+            spatialCoverage: spatial,
+            distribution: {
+                "@type": "DataDownload",
+                contentUrl,
+                encodingFormat: "application/json"
+            }
+        };
+
+        let script = document.getElementById('jsonld-dataset');
+        if (!script) {
+            script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.id = 'jsonld-dataset';
+            document.head.appendChild(script);
+        }
+        script.textContent = JSON.stringify(json);
     }
     
     updateFieldsList() {
