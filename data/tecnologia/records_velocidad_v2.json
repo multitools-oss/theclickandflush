@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "id": "records_velocidad_v2",
+    "title": "Récords Mundiales de Velocidad (1900–2025)",
+    "description": "Evolución de los récords de velocidad en diferentes categorías: terrestre, aéreo, acuático y espacial",
+    "source": "Guinness World Records, FIA, NASA",
+    "unit": "km/h",
+    "temporal_coverage": "1900/2025",
+    "spatial_coverage": "Global",
+    "last_updated": "2025-08-17",
+    "tags": ["velocidad", "récords", "tecnología", "transporte", "innovación"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "category",
+    "filters": [
+      {"id": "global", "name": "Todos los Récords", "color": "#667eea"},
+      {"id": "terrestre", "name": "Terrestre", "color": "#059669"},
+      {"id": "aereo", "name": "Aéreo", "color": "#0ea5e9"},
+      {"id": "acuatico", "name": "Acuático", "color": "#06b6d4"},
+      {"id": "espacial", "name": "Espacial", "color": "#8b5cf6"}
+    ]
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "terrestre", "type": "number", "description": "Récord de velocidad terrestre (km/h)" },
+    { "name": "aereo", "type": "number", "description": "Récord de velocidad aérea (km/h)" },
+    { "name": "acuatico", "type": "number", "description": "Récord de velocidad acuática (km/h)" },
+    { "name": "ferroviario", "type": "number", "description": "Récord de velocidad ferroviaria (km/h)" },
+    { "name": "espacial", "type": "number", "description": "Récord de velocidad espacial (km/h)" }
+  ],
+  "data": [
+    {"year": 1906, "global": 180, "terrestre": 180, "aereo": 0, "acuatico": 65, "espacial": 0},
+    {"year": 1910, "global": 180, "terrestre": 180, "aereo": 109, "acuatico": 65, "espacial": 0},
+    {"year": 1920, "global": 251, "terrestre": 251, "aereo": 171, "acuatico": 86, "espacial": 0},
+    {"year": 1930, "global": 372, "terrestre": 372, "aereo": 469, "acuatico": 158, "espacial": 0},
+    {"year": 1935, "global": 484, "terrestre": 484, "aereo": 709, "acuatico": 203, "espacial": 0},
+    {"year": 1940, "global": 634, "terrestre": 634, "aereo": 755, "acuatico": 225, "espacial": 0},
+    {"year": 1947, "global": 634, "terrestre": 634, "aereo": 1127, "acuatico": 225, "espacial": 0},
+    {"year": 1950, "global": 634, "terrestre": 634, "aereo": 1127, "acuatico": 260, "espacial": 0},
+    {"year": 1960, "global": 664, "terrestre": 664, "aereo": 2193, "acuatico": 444, "espacial": 28000},
+    {"year": 1965, "global": 846, "terrestre": 846, "aereo": 2070, "acuatico": 444, "espacial": 28000},
+    {"year": 1970, "global": 1014, "terrestre": 1014, "aereo": 3529, "acuatico": 511, "espacial": 39897},
+    {"year": 1975, "global": 1014, "terrestre": 1014, "aereo": 3529, "acuatico": 511, "espacial": 39897},
+    {"year": 1980, "global": 1019, "terrestre": 1019, "aereo": 3529, "acuatico": 511, "espacial": 39897},
+    {"year": 1985, "global": 1019, "terrestre": 1019, "aereo": 3529, "acuatico": 511, "espacial": 39897},
+    {"year": 1990, "global": 1019, "terrestre": 1019, "aereo": 3529, "acuatico": 555, "espacial": 39897},
+    {"year": 1995, "global": 1019, "terrestre": 1019, "aereo": 3529, "acuatico": 555, "espacial": 39897},
+    {"year": 1997, "global": 1228, "terrestre": 1228, "aereo": 3529, "acuatico": 555, "espacial": 39897},
+    {"year": 2000, "global": 1228, "terrestre": 1228, "aereo": 3529, "acuatico": 555, "espacial": 39897},
+    {"year": 2005, "global": 1228, "terrestre": 1228, "aereo": 3529, "acuatico": 555, "espacial": 39897},
+    {"year": 2010, "global": 1228, "terrestre": 1228, "aereo": 3529, "acuatico": 555, "espacial": 39897},
+    {"year": 2015, "global": 1228, "terrestre": 1228, "aereo": 3529, "acuatico": 555, "espacial": 39897},
+    {"year": 2020, "global": 1228, "terrestre": 1228, "aereo": 3529, "acuatico": 555, "espacial": 39897},
+    {"year": 2025, "global": 1228, "terrestre": 1228, "aereo": 3529, "acuatico": 555, "espacial": 39897}
+  ]
+}

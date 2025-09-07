@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "id": "redes_sociales_v1",
+    "title": "Usuarios Activos Mensuales de Redes Sociales por Plataforma (2010-2025)",
+    "description": "Número de usuarios activos mensuales (MAUs) en las principales plataformas de redes sociales a nivel mundial.",
+    "version": "2.0",
+    "updated": "2025-08-10",
+    "source": "Statista, DataReportal, informes de empresas",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2010/2025",
+    "spatial_coverage": "Global",
+    "unit": "miles de millones de usuarios",
+    "frequency": "anual"
+  },
+  "fields": [
+    {
+      "name": "year",
+      "type": "integer",
+      "description": "Año del registro"
+    },
+    {
+      "name": "platform",
+      "type": "string",
+      "description": "Plataforma de red social"
+    },
+    {
+      "name": "value",
+      "type": "number",
+      "description": "Miles de millones de usuarios activos mensuales"
+    }
+  ],
+  "data": [
+    {"year": 2010, "platform": "Facebook", "value": 0.61},
+    {"year": 2010, "platform": "YouTube", "value": 0.45},
+    {"year": 2010, "platform": "WhatsApp", "value": 0.05},
+    {"year": 2010, "platform": "Instagram", "value": 0.01},
+    {"year": 2010, "platform": "TikTok", "value": 0},
+    {"year": 2015, "platform": "Facebook", "value": 1.59},
+    {"year": 2015, "platform": "YouTube", "value": 1.3},
+    {"year": 2015, "platform": "WhatsApp", "value": 0.9},
+    {"year": 2015, "platform": "Instagram", "value": 0.4},
+    {"year": 2015, "platform": "TikTok", "value": 0},
+    {"year": 2020, "platform": "Facebook", "value": 2.8},
+    {"year": 2020, "platform": "YouTube", "value": 2.3},
+    {"year": 2020, "platform": "WhatsApp", "value": 2.0},
+    {"year": 2020, "platform": "Instagram", "value": 1.2},
+    {"year": 2020, "platform": "TikTok", "value": 0.7},
+    {"year": 2023, "platform": "Facebook", "value": 3.05},
+    {"year": 2023, "platform": "YouTube", "value": 2.78},
+    {"year": 2023, "platform": "WhatsApp", "value": 2.4},
+    {"year": 2023, "platform": "Instagram", "value": 2.0},
+    {"year": 2023, "platform": "TikTok", "value": 1.5},
+    {"year": 2025, "platform": "Facebook", "value": 3.25},
+    {"year": 2025, "platform": "YouTube", "value": 3.0},
+    {"year": 2025, "platform": "WhatsApp", "value": 2.8},
+    {"year": 2025, "platform": "Instagram", "value": 2.5},
+    {"year": 2025, "platform": "TikTok", "value": 2.2}
+  ]
+}

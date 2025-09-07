@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "id": "universo_curioso_v2",
+    "title": "Curiosidades Asombrosas del Universo (1960–2025)",
+    "description": "Datos fascinantes sobre el cosmos: exoplanetas descubiertos, agujeros negros detectados, asteroides cercanos y señales del espacio profundo",
+    "source": "NASA, ESA, SETI, Kepler Mission, James Webb",
+    "unit": "cantidad/distancia/señales",
+    "temporal_coverage": "1960/2025",
+    "spatial_coverage": "Universo observable",
+    "last_updated": "2025-08-17",
+    "tags": ["universo", "exoplanetas", "agujeros negros", "asteroides", "SETI", "espacio profundo"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "discovery",
+    "filters": [
+      {"id": "global", "name": "Índice Cósmico Global", "color": "#667eea"},
+      {"id": "exoplanetas", "name": "Exoplanetas (miles)", "color": "#8b5cf6"},
+      {"id": "agujeros", "name": "Agujeros Negros", "color": "#1f2937"},
+      {"id": "asteroides", "name": "Asteroides Cercanos", "color": "#92400e"},
+      {"id": "senales", "name": "Señales Misteriosas", "color": "#059669"}
+    ]
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "exoplanetas", "type": "integer", "description": "Exoplanetas descubiertos acumulados" },
+    { "name": "galaxias", "type": "integer", "description": "Galaxias catalogadas (millones)" },
+    { "name": "telescopios", "type": "integer", "description": "Telescopios espaciales activos" },
+    { "name": "asteroides", "type": "integer", "description": "Asteroides cercanos monitoreados" },
+    { "name": "misiones", "type": "integer", "description": "Misiones espaciales activas" }
+  ],
+  "data": [
+    {"year": 1960, "global": 1, "exoplanetas": 0, "agujeros": 0, "asteroides": 12, "senales": 0},
+    {"year": 1970, "global": 5, "exoplanetas": 0, "agujeros": 1, "asteroides": 28, "senales": 1},
+    {"year": 1980, "global": 12, "exoplanetas": 0, "agujeros": 3, "asteroides": 45, "senales": 3},
+    {"year": 1990, "global": 25, "exoplanetas": 0, "agujeros": 8, "asteroides": 89, "senales": 7},
+    {"year": 1995, "global": 45, "exoplanetas": 0.006, "agujeros": 15, "asteroides": 156, "senales": 12},
+    {"year": 2000, "global": 78, "exoplanetas": 0.051, "agujeros": 28, "asteroides": 234, "senales": 18},
+    {"year": 2005, "global": 125, "exoplanetas": 0.195, "agujeros": 45, "asteroides": 387, "senales": 29},
+    {"year": 2009, "global": 198, "exoplanetas": 0.453, "agujeros": 67, "asteroides": 567, "senales": 45},
+    {"year": 2010, "global": 245, "exoplanetas": 0.694, "agujeros": 78, "asteroides": 689, "senales": 52},
+    {"year": 2012, "global": 356, "exoplanetas": 1.235, "agujeros": 95, "asteroides": 834, "senales": 67},
+    {"year": 2014, "global": 489, "exoplanetas": 1.897, "agujeros": 118, "asteroides": 1023, "senales": 89},
+    {"year": 2015, "global": 578, "exoplanetas": 2.341, "agujeros": 134, "asteroides": 1156, "senales": 98},
+    {"year": 2016, "global": 687, "exoplanetas": 3.268, "agujeros": 152, "asteroides": 1289, "senales": 112},
+    {"year": 2017, "global": 798, "exoplanetas": 3.726, "agujeros": 167, "asteroides": 1445, "senales": 128},
+    {"year": 2018, "global": 934, "exoplanetas": 4.158, "agujeros": 189, "asteroides": 1634, "senales": 145},
+    {"year": 2019, "global": 1087, "exoplanetas": 4.569, "agujeros": 208, "asteroides": 1823, "senales": 167},
+    {"year": 2020, "global": 1245, "exoplanetas": 4.987, "agujeros": 234, "asteroides": 2034, "senales": 189},
+    {"year": 2021, "global": 1423, "exoplanetas": 5.234, "agujeros": 267, "asteroides": 2267, "senales": 212},
+    {"year": 2022, "global": 1634, "exoplanetas": 5.567, "agujeros": 298, "asteroides": 2489, "senales": 234},
+    {"year": 2023, "global": 1867, "exoplanetas": 5.789, "agujeros": 334, "asteroides": 2734, "senales": 267},
+    {"year": 2024, "global": 2123, "exoplanetas": 6.123, "agujeros": 378, "asteroides": 2987, "senales": 298},
+    {"year": 2025, "global": 2398, "exoplanetas": 6.456, "agujeros": 423, "asteroides": 3267, "senales": 334}
+  ]
+}

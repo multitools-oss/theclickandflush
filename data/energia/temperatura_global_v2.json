@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "id": "temperatura_global_v2",
+    "title": "Anomalía de la Temperatura Media Global por Hemisferio (1880-2025)",
+    "description": "Desviación de la temperatura media respecto al promedio 1951-1980, con resumen global y desglose por hemisferio.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "NASA GISS, NOAA NCEI, Met Office Hadley Centre (HadCRUT)",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "1880/2025",
+    "spatial_coverage": "Global, por hemisferio",
+    "unit": "grados Celsius (°C)",
+    "frequency": "década",
+    "breakdown_key": "hemisphere"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "hemisphere", "type": "string", "description": "Hemisferio (Norte o Sur)" },
+    { "name": "value", "type": "number", "description": "Anomalía de temperatura en °C" }
+  ],
+  "summary": [
+      { "year": 1880, "value": -0.20 },
+      { "year": 1900, "value": -0.17 },
+      { "year": 1920, "value": -0.25 },
+      { "year": 1940, "value": 0.07 },
+      { "year": 1960, "value": 0.01 },
+      { "year": 1980, "value": 0.26 },
+      { "year": 2000, "value": 0.60 },
+      { "year": 2020, "value": 1.10 },
+      { "year": 2023, "value": 1.20 },
+      { "year": 2025, "value": 1.30 }
+  ],
+  "breakdown": [
+    {"year": 1880, "hemisphere": "Norte", "value": -0.25},
+    {"year": 1880, "hemisphere": "Sur", "value": -0.15},
+    {"year": 1900, "hemisphere": "Norte", "value": -0.22},
+    {"year": 1900, "hemisphere": "Sur", "value": -0.12},
+    {"year": 1920, "hemisphere": "Norte", "value": -0.30},
+    {"year": 1920, "hemisphere": "Sur", "value": -0.20},
+    {"year": 1940, "hemisphere": "Norte", "value": 0.10},
+    {"year": 1940, "hemisphere": "Sur", "value": 0.05},
+    {"year": 1960, "hemisphere": "Norte", "value": 0.05},
+    {"year": 1960, "hemisphere": "Sur", "value": -0.02},
+    {"year": 1980, "hemisphere": "Norte", "value": 0.35},
+    {"year": 1980, "hemisphere": "Sur", "value": 0.18},
+    {"year": 2000, "hemisphere": "Norte", "value": 0.70},
+    {"year": 2000, "hemisphere": "Sur", "value": 0.50},
+    {"year": 2020, "hemisphere": "Norte", "value": 1.35},
+    {"year": 2020, "hemisphere": "Sur", "value": 0.85},
+    {"year": 2023, "hemisphere": "Norte", "value": 1.45},
+    {"year": 2023, "hemisphere": "Sur", "value": 0.95},
+    {"year": 2025, "hemisphere": "Norte", "value": 1.55},
+    {"year": 2025, "hemisphere": "Sur", "value": 1.05}
+  ]
+}

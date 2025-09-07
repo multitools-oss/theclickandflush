@@ -1,0 +1,48 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="defaultGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#defaultGradient)"/>
+  
+  <!-- Data visualization elements -->
+  <g fill="white" opacity="0.8">
+    <!-- Bar chart -->
+    <rect x="80" y="120" width="15" height="30"/>
+    <rect x="100" y="110" width="15" height="40"/>
+    <rect x="120" y="100" width="15" height="50"/>
+    <rect x="140" y="115" width="15" height="35"/>
+    <rect x="160" y="95" width="15" height="55"/>
+    
+    <!-- Pie chart -->
+    <circle cx="250" cy="90" r="25" fill="none" stroke="white" stroke-width="3"/>
+    <path d="M 250 65 A 25 25 0 0 1 275 90 L 250 90 Z" fill="white" opacity="0.6"/>
+    <path d="M 275 90 A 25 25 0 0 1 250 115 L 250 90 Z" fill="white" opacity="0.4"/>
+    
+    <!-- Line chart -->
+    <polyline points="300,120 320,110 340,100 360,105 380,95" 
+              stroke="white" stroke-width="3" fill="none"/>
+    <circle cx="300" cy="120" r="3"/>
+    <circle cx="320" cy="110" r="3"/>
+    <circle cx="340" cy="100" r="3"/>
+    <circle cx="360" cy="105" r="3"/>
+    <circle cx="380" cy="95" r="3"/>
+  </g>
+  
+  <!-- Grid lines -->
+  <g stroke="white" stroke-width="1" opacity="0.3">
+    <line x1="60" y1="150" x2="180" y2="150"/>
+    <line x1="60" y1="130" x2="180" y2="130"/>
+    <line x1="60" y1="110" x2="180" y2="110"/>
+    <line x1="60" y1="90" x2="180" y2="90"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Datos Estadísticos
+  </text>
+</svg>

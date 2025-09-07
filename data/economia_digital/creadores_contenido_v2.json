@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "id": "creadores_contenido_v2",
+    "title": "Boom de los Creadores de Contenido (2018–2025)",
+    "description": "Ingresos anuales generados por creadores de contenido en las principales plataformas digitales",
+    "source": "Creator Economy Report, Influencer Marketing Hub, platform earnings reports",
+    "unit": "miles de millones USD",
+    "temporal_coverage": "2018/2025",
+    "spatial_coverage": "Global, por plataforma",
+    "last_updated": "2025-08-17",
+    "tags": ["creadores", "YouTube", "TikTok", "OnlyFans", "Twitch", "ingresos", "economía creativa"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "platform",
+    "breakdown_key": "platform"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "platform", "type": "string", "description": "Plataforma de creadores" },
+    { "name": "value", "type": "number", "description": "Ingresos de creadores (miles de millones USD)" }
+  ],
+  "summary": [
+    {"year": 2018, "value": 6.8},
+    {"year": 2019, "value": 9.2},
+    {"year": 2020, "value": 13.5},
+    {"year": 2021, "value": 18.7},
+    {"year": 2022, "value": 25.3},
+    {"year": 2023, "value": 32.8},
+    {"year": 2024, "value": 41.2},
+    {"year": 2025, "value": 50.6}
+  ],
+  "breakdown": [
+    {"year": 2018, "platform": "YouTube", "value": 3.2},
+    {"year": 2018, "platform": "TikTok", "value": 0},
+    {"year": 2018, "platform": "OnlyFans", "value": 0.1},
+    {"year": 2018, "platform": "Twitch", "value": 1.2},
+    {"year": 2018, "platform": "Otras", "value": 2.3},
+    
+    {"year": 2019, "platform": "YouTube", "value": 4.1},
+    {"year": 2019, "platform": "TikTok", "value": 0.2},
+    {"year": 2019, "platform": "OnlyFans", "value": 0.3},
+    {"year": 2019, "platform": "Twitch", "value": 1.8},
+    {"year": 2019, "platform": "Otras", "value": 2.8},
+    
+    {"year": 2020, "platform": "YouTube", "value": 5.8},
+    {"year": 2020, "platform": "TikTok", "value": 0.8},
+    {"year": 2020, "platform": "OnlyFans", "value": 1.2},
+    {"year": 2020, "platform": "Twitch", "value": 2.5},
+    {"year": 2020, "platform": "Otras", "value": 3.2},
+    
+    {"year": 2021, "platform": "YouTube", "value": 7.5},
+    {"year": 2021, "platform": "TikTok", "value": 2.1},
+    {"year": 2021, "platform": "OnlyFans", "value": 3.8},
+    {"year": 2021, "platform": "Twitch", "value": 2.8},
+    {"year": 2021, "platform": "Otras", "value": 2.5},
+    
+    {"year": 2022, "platform": "YouTube", "value": 9.8},
+    {"year": 2022, "platform": "TikTok", "value": 4.2},
+    {"year": 2022, "platform": "OnlyFans", "value": 5.9},
+    {"year": 2022, "platform": "Twitch", "value": 3.1},
+    {"year": 2022, "platform": "Otras", "value": 2.3},
+    
+    {"year": 2023, "platform": "YouTube", "value": 12.3},
+    {"year": 2023, "platform": "TikTok", "value": 6.8},
+    {"year": 2023, "platform": "OnlyFans", "value": 7.2},
+    {"year": 2023, "platform": "Twitch", "value": 3.5},
+    {"year": 2023, "platform": "Otras", "value": 3.0},
+    
+    {"year": 2024, "platform": "YouTube", "value": 15.2},
+    {"year": 2024, "platform": "TikTok", "value": 9.5},
+    {"year": 2024, "platform": "OnlyFans", "value": 8.8},
+    {"year": 2024, "platform": "Twitch", "value": 4.1},
+    {"year": 2024, "platform": "Otras", "value": 3.6},
+    
+    {"year": 2025, "platform": "YouTube", "value": 18.5},
+    {"year": 2025, "platform": "TikTok", "value": 12.8},
+    {"year": 2025, "platform": "OnlyFans", "value": 10.2},
+    {"year": 2025, "platform": "Twitch", "value": 4.8},
+    {"year": 2025, "platform": "Otras", "value": 4.3}
+  ]
+}

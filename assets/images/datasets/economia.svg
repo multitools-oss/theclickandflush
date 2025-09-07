@@ -1,0 +1,39 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ecoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11998e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38ef7d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#ecoGradient)"/>
+  
+  <!-- Bar chart -->
+  <g fill="white" opacity="0.9">
+    <rect x="60" y="120" width="25" height="40"/>
+    <rect x="100" y="100" width="25" height="60"/>
+    <rect x="140" y="80" width="25" height="80"/>
+    <rect x="180" y="90" width="25" height="70"/>
+    <rect x="220" y="70" width="25" height="90"/>
+    <rect x="260" y="85" width="25" height="75"/>
+    <rect x="300" y="60" width="25" height="100"/>
+  </g>
+  
+  <!-- Trend line -->
+  <g stroke="white" stroke-width="3" fill="none" opacity="0.8">
+    <polyline points="72,140 112,120 152,100 192,110 232,90 272,105 312,80"/>
+  </g>
+  
+  <!-- Dollar signs -->
+  <g fill="white" opacity="0.6" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    <text x="50" y="50">$</text>
+    <text x="350" y="40">$</text>
+    <text x="320" y="180">$</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Economía y Finanzas
+  </text>
+</svg>

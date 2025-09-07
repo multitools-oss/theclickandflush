@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de Datasets</title>
+    
+    <!-- Favicon y iconos -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <meta name="theme-color" content="#667eea">
+    
+    <!-- Google Analytics (GDPR Compliant) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJLS0N9BPM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        // Configuración GDPR-compliant
+        gtag('config', 'G-KJLS0N9BPM', {
+            'anonymize_ip': true,
+            'allow_google_signals': false,
+            'allow_ad_personalization_signals': false
+        });
+    </script>
+    
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .dataset { margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        .working { background-color: #d4edda; border-color: #c3e6cb; }
+        .error { background-color: #f8d7da; border-color: #f5c6cb; }
+        .loading { background-color: #fff3cd; border-color: #ffeaa7; }
+        .status { font-weight: bold; }
+        button { margin: 5px; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Verificación de Datasets - Observatorio de Estadísticas</h1>
+    <button onclick="checkAllDatasets()">Verificar Todos los Datasets</button>
+    <button onclick="clearResults()">Limpiar Resultados</button>
+    
+    <div id="results"></div>
+
+    <!-- Footer -->
+    <footer style="margin-top: 40px; padding: 20px; background: #f8f9fa; border-top: 1px solid #dee2e6; text-align: center;">
+        <div style="margin-bottom: 10px;">
+            <strong>Observatorio de Estadísticas</strong>
+        </div>
+        <div style="font-size: 12px; color: #6c757d; margin-bottom: 10px;">
+            &copy; 2025 Observatorio de Estadísticas. Datos bajo licencia 
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        </div>
+        <div style="font-size: 11px;">
+            <a href="legal.html" style="color: #6c757d; text-decoration: none; margin: 0 10px;">Términos Legales</a>
+            |
+            <a href="privacy.html" style="color: #6c757d; text-decoration: none; margin: 0 10px;">Política de Privacidad</a>
+            |
+            <span style="color: #6c757d;">GDPR Compliant</span>
+        </div>
+    </footer>
+
+    <script>
+        const datasets = [
+            // Demografía
+            { id: 'poblacion_mundial_v2', path: '/data/demografia/poblacion_mundial.v2.json' },
+            { id: 'esperanza_vida_v2', path: '/data/demografia/esperanza_vida.v2.json' },
+            { id: 'urbanizacion_mundial_v2', path: '/data/demografia/urbanizacion_mundial.v2.json' },
+            { id: 'educacion_superior_v2', path: '/data/demografia/educacion_superior.v2.json' },
+            { id: 'salud_mental_v2', path: '/data/demografia/salud_mental.v2.json' },
+            { id: 'obesidad_mundial_v2', path: '/data/demografia/obesidad_mundial.v2.json' },
+            { id: 'refugiados_mundial_v2', path: '/data/demografia/refugiados_mundial.v2.json' },
+            
+            // Economía
+            { id: 'pib_per_capita_v2', path: '/data/economia/pib_per_capita.v2.json' },
+            { id: 'ecommerce_mundial_v2', path: '/data/economia/ecommerce_mundial.v2.json' },
+            { id: 'trabajo_remoto_v2', path: '/data/economia/trabajo_remoto.v2.json' },
+            { id: 'criptomonedas_v2', path: '/data/economia/criptomonedas.v2.json' },
+            { id: 'gig_economy_v2', path: '/data/economia/gig_economy.v2.json' },
+            { id: 'turismo_internacional_v2', path: '/data/economia/turismo_internacional.v2.json' },
+            
+            // Energía
+            { id: 'co2_mundial_v2', path: '/data/energia/co2_mundial.v2.json' },
+            { id: 'temperatura_global_v2', path: '/data/energia/temperatura_global.v2.json' },
+            { id: 'renovables_mundial_v2', path: '/data/energia/renovables_mundial.v2.json' },
+            { id: 'vehiculos_electricos_v2', path: '/data/energia/vehiculos_electricos.v2.json' },
+            { id: 'energia_solar_v2', path: '/data/energia/energia_solar.v2.json' },
+            { id: 'desastres_naturales_v2', path: '/data/energia/desastres_naturales.v2.json' },
+            { id: 'deforestacion_mundial_v2', path: '/data/energia/deforestacion_mundial.v2.json' },
+            
+            // Tecnología
+            { id: 'usuarios_internet_v2', path: '/data/tecnologia/usuarios_internet.v2.json' },
+            { id: 'smartphones_mundial_v2', path: '/data/tecnologia/smartphones_mundial.v2.json' },
+            { id: 'redes_sociales_v2', path: '/data/tecnologia/redes_sociales.v2.json' },
+            { id: 'streaming_video_v2', path: '/data/tecnologia/streaming_video.v2.json' },
+            { id: 'inversion_ia_v2', path: '/data/tecnologia/inversion_ia.v2.json' },
+            { id: 'gaming_mundial_v2', path: '/data/tecnologia/gaming_mundial.v2.json' },
+            { id: 'ciberseguridad_v2', path: '/data/tecnologia/ciberseguridad.v2.json' }
+        ];
+
+        async function checkDataset(dataset) {
+            const resultDiv = document.getElementById(`result-${dataset.id}`);
+            resultDiv.className = 'dataset loading';
+            resultDiv.innerHTML = `
+                <h3>${dataset.id}</h3>
+                <p class="status">Verificando...</p>
+                <p>Ruta: ${dataset.path}</p>
+            `;
+
+            try {
+                const response = await fetch(dataset.path);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                // Validate structure
+                let structure = 'Desconocida';
+                let hasFilters = false;
+                let filterType = 'N/A';
+                let dataPoints = 0;
+                
+                if (data.summary && data.breakdown && data.metadata.breakdown_key) {
+                    structure = 'Nueva (summary + breakdown)';
+                    hasFilters = true;
+                    filterType = data.metadata.breakdown_key;
+                    dataPoints = data.summary.length + data.breakdown.length;
+                } else if (data.data && Array.isArray(data.data)) {
+                    structure = 'Simple (data array)';
+                    dataPoints = data.data.length;
+                    
+                    // Check if has filterable fields
+                    if (data.data.length > 0) {
+                        const firstItem = data.data[0];
+                        const filterableFields = ['segment', 'region', 'continent', 'country'];
+                        for (const field of filterableFields) {
+                            if (firstItem[field]) {
+                                hasFilters = true;
+                                filterType = field;
+                                break;
+                            }
+                        }
+                    }
+                }
+                
+                resultDiv.className = 'dataset working';
+                resultDiv.innerHTML = `
+                    <h3>✅ ${dataset.id}</h3>
+                    <p class="status">FUNCIONANDO</p>
+                    <p><strong>Ruta:</strong> ${dataset.path}</p>
+                    <p><strong>Estructura:</strong> ${structure}</p>
+                    <p><strong>Filtros:</strong> ${hasFilters ? `Sí (${filterType})` : 'No'}</p>
+                    <p><strong>Puntos de datos:</strong> ${dataPoints}</p>
+                    <p><strong>Título:</strong> ${data.metadata.title}</p>
+                    <a href="dataset.html?id=${dataset.id}" target="_blank">🔗 Abrir dataset</a>
+                `;
+                
+            } catch (error) {
+                resultDiv.className = 'dataset error';
+                resultDiv.innerHTML = `
+                    <h3>❌ ${dataset.id}</h3>
+                    <p class="status">ERROR</p>
+                    <p><strong>Ruta:</strong> ${dataset.path}</p>
+                    <p><strong>Error:</strong> ${error.message}</p>
+                `;
+            }
+        }
+
+        async function checkAllDatasets() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+            
+            // Create result divs
+            datasets.forEach(dataset => {
+                const div = document.createElement('div');
+                div.id = `result-${dataset.id}`;
+                div.className = 'dataset loading';
+                div.innerHTML = `
+                    <h3>${dataset.id}</h3>
+                    <p class="status">Esperando...</p>
+                `;
+                resultsDiv.appendChild(div);
+            });
+            
+            // Check datasets in parallel (but limit concurrency)
+            const batchSize = 5;
+            for (let i = 0; i < datasets.length; i += batchSize) {
+                const batch = datasets.slice(i, i + batchSize);
+                await Promise.all(batch.map(dataset => checkDataset(dataset)));
+                
+                // Small delay between batches
+                if (i + batchSize < datasets.length) {
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                }
+            }
+            
+            // Summary
+            const working = document.querySelectorAll('.working').length;
+            const errors = document.querySelectorAll('.error').length;
+            const total = datasets.length;
+            
+            const summaryDiv = document.createElement('div');
+            summaryDiv.style.cssText = 'margin-top: 20px; padding: 15px; background: #e9ecef; border-radius: 5px; font-weight: bold;';
+            summaryDiv.innerHTML = `
+                <h2>Resumen de Verificación</h2>
+                <p>✅ Funcionando: ${working}/${total}</p>
+                <p>❌ Con errores: ${errors}/${total}</p>
+                <p>📊 Tasa de éxito: ${((working/total)*100).toFixed(1)}%</p>
+            `;
+            resultsDiv.insertBefore(summaryDiv, resultsDiv.firstChild);
+        }
+
+        function clearResults() {
+            document.getElementById('results').innerHTML = '';
+        }
+    </script>
+</body>
+</html>

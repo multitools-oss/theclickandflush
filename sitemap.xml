@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Página principal - Español -->
+    <url>
+        <loc>https://theclickandflush.com/</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://theclickandflush.com/?lang=en" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://theclickandflush.com/" />
+    </url>
+
+    <!-- Página principal - Inglés -->
+    <url>
+        <loc>https://theclickandflush.com/?lang=en</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://theclickandflush.com/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://theclickandflush.com/?lang=en" />
+    </url>
+
+    <!-- Visualización de datasets -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Población Mundial por Continente (1950–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=poblacion_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Esperanza de Vida por Continente (1950–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=esperanza_vida.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Urbanización Mundial por Continente (1950–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=urbanizacion_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Educación Superior por Continente (1970–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=educacion_superior.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Salud Mental por Continente (2000–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=salud_mental.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Obesidad Mundial por Continente (1975–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=obesidad_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Refugiados por Continente (1990–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=refugiados_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- PIB per cápita por Continente (1960–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=pib_per_capita.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Comercio Electrónico por Región (2000–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=ecommerce_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Trabajo Remoto por Región (2005–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=trabajo_remoto.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Criptomonedas por Región (2009–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=criptomonedas.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Economía Gig por Región (2008–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=gig_economy.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Turismo Internacional por Región (1995–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=turismo_internacional.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Emisiones CO2 por Región (1990–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=co2_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Temperatura Global por Región (1880–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=temperatura_global.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Energías Renovables por Región (2000–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=renovables_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Vehículos Eléctricos por Región (2010–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=vehiculos_electricos.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Energía Solar por Región (2000–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=energia_solar.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Desastres Naturales por Región (1980–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=desastres_naturales.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Deforestación por Región (1990–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=deforestacion_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Usuarios de Internet por Región (1990–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=usuarios_internet.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Smartphones per cápita por Región (2007–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=smartphones_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Redes Sociales por Región (2004–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=redes_sociales.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Streaming de Video por Región (2007–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=streaming_video.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Inversión en IA por Región (2010–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=inversion_ia.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Industria Gaming por Segmento (2015–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=gaming_mundial.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Ciberataques por Región (2005–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=ciberseguridad.v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Lanzamientos Espaciales Mundiales (1957–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=lanzamientos_espaciales.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Récords Mundiales de Velocidad (1900–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=records_velocidad.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Fenómenos Naturales Extremos Mundiales (1980–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=fenomenos_extremos.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Comportamiento Digital Humano (2000–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=comportamiento_digital.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Datos Asombrosos de los Océanos (1990–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=oceanos_asombrosos.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Curiosidades Asombrosas del Universo (1960–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=universo_curioso.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Evolución de la IA Generativa (2020–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=ia_generativa.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Boom de los Creadores de Contenido (2018–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=creadores_contenido.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Salud Mental Post-Pandemia (2020–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=salud_mental_pandemia.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Trabajos Reemplazados vs Creados por IA (2023–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=trabajos_vs_ia.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Migración Climática Global (2010–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=migracion_climatica.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Récords de Temperatura Extrema Mundial (2000–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=records_temperatura.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Adopción de Vehículos Eléctricos por País (2015–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=vehiculos_electricos_paises.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Avances en Longevidad Humana (2020–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=longevidad_avances.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Metaverso y Realidad Virtual (2020–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=metaverso_vr.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Fenómeno de los Podcasts (2018–2025) -->
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=fenomeno_podcasts.v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Páginas legales -->
+    <url>
+        <loc>https://theclickandflush.com/legal.html</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://theclickandflush.com/privacy.html</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+</urlset>

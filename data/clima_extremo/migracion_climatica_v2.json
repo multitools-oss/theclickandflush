@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "id": "migracion_climatica_v2",
+    "title": "Migración Climática Global (2015–2025)",
+    "description": "Desplazados por eventos climáticos extremos: sequías, inundaciones, huracanes y subida del nivel del mar",
+    "source": "UNHCR, IOM, Internal Displacement Monitoring Centre, Climate Migration Institute",
+    "unit": "millones de desplazados",
+    "temporal_coverage": "2015/2025",
+    "spatial_coverage": "Global, por tipo de evento climático",
+    "last_updated": "2025-08-17",
+    "tags": ["migración", "clima", "desplazados", "refugiados", "cambio climático"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "event_type",
+    "breakdown_key": "event_type"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "event_type", "type": "string", "description": "Tipo de evento climático" },
+    { "name": "value", "type": "number", "description": "Número de desplazados (millones)" }
+  ],
+  "summary": [
+    {"year": 2015, "value": 19.2},
+    {"year": 2016, "value": 23.5},
+    {"year": 2017, "value": 18.8},
+    {"year": 2018, "value": 28.9},
+    {"year": 2019, "value": 24.9},
+    {"year": 2020, "value": 30.7},
+    {"year": 2021, "value": 23.7},
+    {"year": 2022, "value": 32.6},
+    {"year": 2023, "value": 26.4},
+    {"year": 2024, "value": 35.8},
+    {"year": 2025, "value": 41.2}
+  ],
+  "breakdown": [
+    {"year": 2015, "event_type": "Inundaciones", "value": 8.2},
+    {"year": 2015, "event_type": "Sequías", "value": 4.1},
+    {"year": 2015, "event_type": "Huracanes/Tormentas", "value": 5.8},
+    {"year": 2015, "event_type": "Subida Nivel del Mar", "value": 0.8},
+    {"year": 2015, "event_type": "Otros Eventos", "value": 0.3},
+    
+    {"year": 2016, "event_type": "Inundaciones", "value": 10.1},
+    {"year": 2016, "event_type": "Sequías", "value": 5.2},
+    {"year": 2016, "event_type": "Huracanes/Tormentas", "value": 6.9},
+    {"year": 2016, "event_type": "Subida Nivel del Mar", "value": 1.0},
+    {"year": 2016, "event_type": "Otros Eventos", "value": 0.3},
+    
+    {"year": 2017, "event_type": "Inundaciones", "value": 8.0},
+    {"year": 2017, "event_type": "Sequías", "value": 4.8},
+    {"year": 2017, "event_type": "Huracanes/Tormentas", "value": 4.9},
+    {"year": 2017, "event_type": "Subida Nivel del Mar", "value": 0.9},
+    {"year": 2017, "event_type": "Otros Eventos", "value": 0.2},
+    
+    {"year": 2018, "event_type": "Inundaciones", "value": 12.8},
+    {"year": 2018, "event_type": "Sequías", "value": 6.1},
+    {"year": 2018, "event_type": "Huracanes/Tormentas", "value": 8.2},
+    {"year": 2018, "event_type": "Subida Nivel del Mar", "value": 1.4},
+    {"year": 2018, "event_type": "Otros Eventos", "value": 0.4},
+    
+    {"year": 2019, "event_type": "Inundaciones", "value": 10.5},
+    {"year": 2019, "event_type": "Sequías", "value": 5.8},
+    {"year": 2019, "event_type": "Huracanes/Tormentas", "value": 6.9},
+    {"year": 2019, "event_type": "Subida Nivel del Mar", "value": 1.3},
+    {"year": 2019, "event_type": "Otros Eventos", "value": 0.4},
+    
+    {"year": 2020, "event_type": "Inundaciones", "value": 13.2},
+    {"year": 2020, "event_type": "Sequías", "value": 7.8},
+    {"year": 2020, "event_type": "Huracanes/Tormentas", "value": 7.9},
+    {"year": 2020, "event_type": "Subida Nivel del Mar", "value": 1.5},
+    {"year": 2020, "event_type": "Otros Eventos", "value": 0.3},
+    
+    {"year": 2021, "event_type": "Inundaciones", "value": 9.8},
+    {"year": 2021, "event_type": "Sequías", "value": 6.2},
+    {"year": 2021, "event_type": "Huracanes/Tormentas", "value": 6.1},
+    {"year": 2021, "event_type": "Subida Nivel del Mar", "value": 1.2},
+    {"year": 2021, "event_type": "Otros Eventos", "value": 0.4},
+    
+    {"year": 2022, "event_type": "Inundaciones", "value": 14.5},
+    {"year": 2022, "event_type": "Sequías", "value": 8.9},
+    {"year": 2022, "event_type": "Huracanes/Tormentas", "value": 7.8},
+    {"year": 2022, "event_type": "Subida Nivel del Mar", "value": 1.8},
+    {"year": 2022, "event_type": "Otros Eventos", "value": 0.6},
+    
+    {"year": 2023, "event_type": "Inundaciones", "value": 11.2},
+    {"year": 2023, "event_type": "Sequías", "value": 7.1},
+    {"year": 2023, "event_type": "Huracanes/Tormentas", "value": 6.8},
+    {"year": 2023, "event_type": "Subida Nivel del Mar", "value": 1.6},
+    {"year": 2023, "event_type": "Otros Eventos", "value": 0.7},
+    
+    {"year": 2024, "event_type": "Inundaciones", "value": 15.8},
+    {"year": 2024, "event_type": "Sequías", "value": 9.8},
+    {"year": 2024, "event_type": "Huracanes/Tormentas", "value": 8.2},
+    {"year": 2024, "event_type": "Subida Nivel del Mar", "value": 2.1},
+    {"year": 2024, "event_type": "Otros Eventos", "value": 0.9},
+    
+    {"year": 2025, "event_type": "Inundaciones", "value": 18.2},
+    {"year": 2025, "event_type": "Sequías", "value": 11.5},
+    {"year": 2025, "event_type": "Huracanes/Tormentas", "value": 9.1},
+    {"year": 2025, "event_type": "Subida Nivel del Mar", "value": 2.8},
+    {"year": 2025, "event_type": "Otros Eventos", "value": 1.6}
+  ]
+}

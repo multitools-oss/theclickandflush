@@ -1,0 +1,85 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cultureGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#cultureGradient)"/>
+  
+  <!-- VR Headset -->
+  <g fill="white" opacity="0.9">
+    <ellipse cx="80" cy="80" rx="30" ry="15"/>
+    <rect x="50" y="75" width="60" height="10" rx="5"/>
+    <!-- Lenses -->
+    <circle cx="70" cy="80" r="8" fill="url(#cultureGradient)"/>
+    <circle cx="90" cy="80" r="8" fill="url(#cultureGradient)"/>
+  </g>
+  
+  <!-- Headphones -->
+  <g fill="white" opacity="0.8">
+    <path d="M 150 60 Q 170 50 190 60"/>
+    <rect x="145" y="65" width="10" height="15" rx="5"/>
+    <rect x="185" y="65" width="10" height="15" rx="5"/>
+  </g>
+  
+  <!-- Podcast waves -->
+  <g stroke="white" stroke-width="2" fill="none" opacity="0.6">
+    <circle cx="170" cy="100" r="15"/>
+    <circle cx="170" cy="100" r="25"/>
+    <circle cx="170" cy="100" r="35"/>
+  </g>
+  
+  <!-- Gaming controller -->
+  <g fill="white" opacity="0.8">
+    <rect x="230" y="75" width="40" height="20" rx="10"/>
+    <!-- D-pad -->
+    <rect x="235" y="80" width="8" height="3"/>
+    <rect x="237" y="78" width="3" height="8"/>
+    <!-- Buttons -->
+    <circle cx="260" cy="80" r="2"/>
+    <circle cx="265" cy="85" r="2"/>
+  </g>
+  
+  <!-- Streaming/Video -->
+  <g fill="white" opacity="0.8">
+    <rect x="300" y="70" width="30" height="20" rx="3"/>
+    <!-- Play button -->
+    <polygon points="310,75 310,85 320,80" fill="url(#cultureGradient)"/>
+  </g>
+  
+  <!-- Social media engagement -->
+  <g fill="white" opacity="0.7">
+    <!-- Likes -->
+    <path d="M 50 120 Q 55 115 60 120 Q 65 115 70 120 Q 70 130 60 135 Q 50 130 50 120"/>
+    <!-- Comments -->
+    <ellipse cx="90" cy="125" rx="8" ry="5"/>
+    <polygon points="85,130 90,135 95,130"/>
+    <!-- Shares -->
+    <circle cx="120" cy="125" r="3"/>
+    <line x1="123" y1="122" x2="130" y2="115" stroke="white" stroke-width="2"/>
+    <line x1="123" y1="128" x2="130" y2="135" stroke="white" stroke-width="2"/>
+  </g>
+  
+  <!-- Metaverse elements -->
+  <g stroke="white" stroke-width="1" fill="none" opacity="0.5">
+    <rect x="280" y="110" width="15" height="15"/>
+    <rect x="300" y="115" width="10" height="10"/>
+    <rect x="320" y="120" width="12" height="12"/>
+    <!-- Connecting lines -->
+    <line x1="295" y1="117" x2="300" y2="120"/>
+    <line x1="310" y1="120" x2="320" y2="125"/>
+  </g>
+  
+  <!-- Engagement metrics -->
+  <g stroke="white" stroke-width="2" fill="none" opacity="0.6">
+    <polyline points="350,130 360,120 370,110 380,100"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Cultura Digital
+  </text>
+</svg>

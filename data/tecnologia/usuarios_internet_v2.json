@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "id": "usuarios_internet_v1",
+    "title": "Penetración de Internet por Región (1990-2025)",
+    "description": "Porcentaje de la población que utiliza Internet, desagregado por región geográfica.",
+    "version": "2.0",
+    "updated": "2025-08-10",
+    "source": "International Telecommunication Union (ITU), World Bank",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "1990/2025",
+    "spatial_coverage": "Global, por región",
+    "unit": "% de la población",
+    "frequency": "variable"
+  },
+  "fields": [
+    {
+      "name": "year",
+      "type": "integer",
+      "description": "Año del registro"
+    },
+    {
+      "name": "region",
+      "type": "string",
+      "description": "Región geográfica"
+    },
+    {
+      "name": "value",
+      "type": "number",
+      "description": "Porcentaje de penetración de Internet"
+    }
+  ],
+  "data": [
+    {"year": 1990, "region": "Europa", "value": 0.2},
+    {"year": 1990, "region": "América", "value": 0.5},
+    {"year": 1990, "region": "Asia y Pacífico", "value": 0.0},
+    {"year": 1990, "region": "Estados Árabes", "value": 0.0},
+    {"year": 1990, "region": "África", "value": 0.0},
+    {"year": 2000, "region": "Europa", "value": 27.4},
+    {"year": 2000, "region": "América", "value": 18.3},
+    {"year": 2000, "region": "Asia y Pacífico", "value": 3.9},
+    {"year": 2000, "region": "Estados Árabes", "value": 1.2},
+    {"year": 2000, "region": "África", "value": 0.5},
+    {"year": 2010, "region": "Europa", "value": 67.0},
+    {"year": 2010, "region": "América", "value": 49.4},
+    {"year": 2010, "region": "Asia y Pacífico", "value": 23.8},
+    {"year": 2010, "region": "Estados Árabes", "value": 25.7},
+    {"year": 2010, "region": "África", "value": 10.2},
+    {"year": 2020, "region": "Europa", "value": 87.2},
+    {"year": 2020, "region": "América", "value": 77.8},
+    {"year": 2020, "region": "Asia y Pacífico", "value": 57.1},
+    {"year": 2020, "region": "Estados Árabes", "value": 60.9},
+    {"year": 2020, "region": "África", "value": 29.8},
+    {"year": 2023, "region": "Europa", "value": 90.5},
+    {"year": 2023, "region": "América", "value": 82.1},
+    {"year": 2023, "region": "Asia y Pacífico", "value": 65.3},
+    {"year": 2023, "region": "Estados Árabes", "value": 68.2},
+    {"year": 2023, "region": "África", "value": 37.4},
+    {"year": 2025, "region": "Europa", "value": 92.0},
+    {"year": 2025, "region": "América", "value": 85.0},
+    {"year": 2025, "region": "Asia y Pacífico", "value": 70.0},
+    {"year": 2025, "region": "Estados Árabes", "value": 72.0},
+    {"year": 2025, "region": "África", "value": 42.0}
+  ]
+}

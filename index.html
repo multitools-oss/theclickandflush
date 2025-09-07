@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="i18n-title" content="header.title">
+    <title>Observatorio de Estadísticas - Datos históricos y actuales desde 1900</title>
+    <meta name="description" content="Explora la evolución mundial desde 1900 hasta 2025: población, economía y emisiones CO2. Visualizaciones interactivas con datos de ONU, Banco Mundial y más.">
+    <meta name="keywords" content="estadísticas históricas, datos mundiales, población, PIB, CO2, visualización, gráficos interactivos, demografía, economía mundial, cambio climático">
+    <meta name="author" content="Observatorio de Estadísticas">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Favicon y iconos -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/favicon.svg" color="#667eea">
+    <meta name="msapplication-TileColor" content="#667eea">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="theme-color" content="#667eea">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://theclickandflush.com/">
+    
+    <!-- Idioma alternativo -->
+    <link rel="alternate" hreflang="es" href="https://theclickandflush.com/">
+    <link rel="alternate" hreflang="x-default" href="https://theclickandflush.com/">
+    
+    <!-- Google Analytics (GDPR Compliant) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJLS0N9BPM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        // Configuración GDPR-compliant
+        gtag('config', 'G-KJLS0N9BPM', {
+            'anonymize_ip': true,
+            'allow_google_signals': false,
+            'allow_ad_personalization_signals': false
+        });
+    </script>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://theclickandflush.com/">
+    <meta property="og:title" content="Observatorio de Estadísticas - Datos históricos mundiales desde 1900">
+    <meta property="og:description" content="Explora la evolución mundial desde 1900: población, economía y emisiones CO2 con visualizaciones interactivas. Datos de ONU, Banco Mundial y más.">
+    <meta property="og:image" content="https://theclickandflush.com/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Observatorio de Estadísticas">
+    <meta property="og:locale" content="es_ES">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://theclickandflush.com/">
+    <meta name="twitter:title" content="Observatorio de Estadísticas - Datos históricos mundiales">
+    <meta name="twitter:description" content="Explora la evolución mundial desde 1900: población, economía y emisiones CO2 con visualizaciones interactivas">
+    <meta name="twitter:image" content="https://theclickandflush.com/assets/og-image.jpg">
+    
+    <!-- Structured Data - JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Observatorio de Estadísticas",
+        "description": "Plataforma de visualización de datos estadísticos históricos mundiales desde 1900",
+        "url": "https://theclickandflush.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://theclickandflush.com/dataset.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Observatorio de Estadísticas",
+            "url": "https://theclickandflush.com/"
+        },
+        "mainEntity": {
+            "@type": "Dataset",
+            "name": "Datos Estadísticos Mundiales Históricos",
+            "description": "Colección de datos históricos sobre población, economía y medio ambiente desde 1900",
+            "keywords": ["estadísticas", "demografía", "economía", "CO2", "población mundial"],
+            "creator": {
+                "@type": "Organization",
+                "name": "Observatorio de Estadísticas"
+            },
+            "datePublished": "2025-08-11",
+            "dateModified": "2025-08-11",
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+        }
+    }
+    </script>
+    <meta property="og:image" content="https://theclickandflush.com/og-image.jpg">
+    <meta property="og:site_name" content="Observatorio de Estadísticas">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Observatorio de Estadísticas - Datos históricos mundiales">
+    <meta name="twitter:description" content="Explora la evolución mundial desde 1900: población, economía y emisiones CO2">
+    <meta name="twitter:image" content="https://theclickandflush.com/twitter-image.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="assets/output.css">
+    
+    <!-- Dark Mode Script (must be before body) -->
+    <script src="assets/theme.js"></script>
+    
+    <!-- AOS (Animate on Scroll) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js" defer></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+</head>
+<body class="bg-neutral-50 dark:bg-neutral-900 text-neutral-800 dark:text-neutral-200 min-h-screen font-sans">
+    <!-- Skip to main content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-accent-600 text-white px-4 py-2 rounded-lg z-50 focus:outline-none focus:ring-2 focus:ring-accent-500">
+        Saltar al contenido principal
+    </a>
+
+    <!-- Header -->
+    <header class="bg-neutral-50 dark:bg-neutral-900 border-b border-neutral-200 dark:border-neutral-800">
+        <nav class="container mx-auto px-4 py-4" role="navigation" aria-label="Navegación principal">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-primary-100 dark:bg-primary-900/30 p-2 rounded-lg">
+                        <i data-lucide="bar-chart-3" class="w-6 h-6 text-primary-700 dark:text-primary-300" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold font-serif text-primary-900 dark:text-white" data-i18n="header.title">Observatorio de Estadísticas</h1>
+                        <p class="text-sm text-neutral-600 dark:text-neutral-400" data-i18n="header.subtitle">Datos históricos y actuales</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center space-x-6">
+                    <a href="#datasets" class="hidden sm:flex items-center space-x-2 text-neutral-600 dark:text-neutral-300 hover:text-accent-600 dark:hover:text-accent-400 transition-colors font-medium">
+                        <i data-lucide="database" class="w-4 h-4" aria-hidden="true"></i>
+                        <span data-i18n="header.nav.datasets">Datasets</span>
+                    </a>
+                    <a href="#about" class="hidden sm:flex items-center space-x-2 text-neutral-600 dark:text-neutral-300 hover:text-accent-600 dark:hover:text-accent-400 transition-colors font-medium">
+                        <i data-lucide="info" class="w-4 h-4" aria-hidden="true"></i>
+                        <span>Acerca de</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-br from-neutral-100 to-neutral-200 dark:from-primary-900 dark:to-neutral-900 py-20 lg:py-28">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-4xl lg:text-6xl font-bold font-serif mb-6 leading-tight text-primary-900 dark:text-white" data-i18n="home.hero.title">
+                        Explora 125 años de historia mundial
+                    </h2>
+                    <p class="text-xl lg:text-2xl text-neutral-600 dark:text-neutral-300 mb-10 leading-relaxed max-w-3xl mx-auto" data-i18n="home.hero.subtitle">
+                        Datos verificados desde 1900 hasta 2025. Población, economía, tecnología y medio ambiente 
+                        en visualizaciones interactivas.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="#datasets" 
+                           class="inline-flex items-center justify-center space-x-2 bg-accent-500 hover:bg-accent-600 focus:bg-accent-600 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2 focus:ring-offset-neutral-100 dark:focus:ring-offset-neutral-900 transform hover:scale-105 focus:scale-105 shadow-lg hover:shadow-xl">
+                            <i data-lucide="trending-up" class="w-5 h-5" aria-hidden="true"></i>
+                            <span data-i18n="home.hero.cta">Explorar datos</span>
+                        </a>
+                        <a href="#about" 
+                           class="inline-flex items-center justify-center space-x-2 bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700 focus:bg-neutral-100 dark:focus:bg-neutral-700 text-neutral-800 dark:text-white border border-neutral-300 dark:border-neutral-700 hover:border-neutral-400 dark:hover:border-neutral-600 px-8 py-3 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2 focus:ring-offset-neutral-100 dark:focus:ring-offset-neutral-900 transform hover:scale-105 focus:scale-105">
+                            <i data-lucide="info" class="w-5 h-5" aria-hidden="true"></i>
+                            <span>Cómo funciona</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <section id="loading" class="py-16" aria-live="polite" aria-label="Estado de carga">
+            <div class="container mx-auto px-4">
+                <div class="text-center">
+                    <div class="inline-flex items-center space-x-2 text-neutral-600 dark:text-neutral-400">
+                        <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-accent-600" role="status" aria-label="Cargando"></div>
+                        <span>Cargando datasets...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Datasets Section -->
+        <section id="datasets" class="py-16 lg:py-24 hidden">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl lg:text-4xl font-bold font-serif mb-4 text-primary-900 dark:text-white" data-i18n="home.datasets.title">
+                        Conjuntos de Datos
+                    </h3>
+                    <p class="text-lg text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto" data-i18n="home.datasets.subtitle">
+                        Explora nuestra colección de datasets históricos y actuales
+                    </p>
+                </div>
+                
+                <!-- Categories Filter -->
+                <div id="categories-filter" class="flex flex-wrap justify-center gap-3 mb-12" role="tablist" aria-label="Filtrar por categoría">
+                    <button class="category-filter active px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2 focus:ring-offset-neutral-50 dark:focus:ring-offset-neutral-900 transform hover:scale-105 focus:scale-105" 
+                            data-category="all" role="tab" aria-selected="true" data-i18n="home.categories.all">
+                        Todos
+                    </button>
+                </div>
+                
+                <!-- Datasets Grid -->
+                <div id="datasets-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="region" aria-label="Lista de datasets">
+                    <!-- Cards will be generated here -->
+                </div>
+                
+                <!-- Error State -->
+                <div id="error-state" class="hidden text-center py-12" role="alert" aria-live="assertive">
+                    <div class="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-6 max-w-md mx-auto">
+                        <i data-lucide="alert-circle" class="w-8 h-8 text-red-600 dark:text-red-400 mx-auto mb-3" aria-hidden="true"></i>
+                        <h4 class="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">Error al cargar datos</h4>
+                        <p class="text-red-700 dark:text-red-300 text-sm">
+                            No se pudieron cargar los datasets. Por favor, intenta recargar la página.
+                        </p>
+                        <button onclick="loadCatalog()" 
+                                class="mt-4 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
+                                aria-describedby="error-description">
+                            Reintentar
+                        </button>
+                        <span id="error-description" class="sr-only">Recargar los datos del catálogo</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16 lg:py-24 bg-neutral-100 dark:bg-neutral-800">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-3xl lg:text-4xl font-bold font-serif mb-12 text-center text-primary-900 dark:text-white">
+                        Acerca del Observatorio
+                    </h3>
+                    
+                    <div class="grid md:grid-cols-3 gap-8 mb-12">
+                        <div class="text-center">
+                            <div class="bg-accent-100 dark:bg-accent-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="database" class="w-8 h-8 text-accent-700 dark:text-accent-300" aria-hidden="true"></i>
+                            </div>
+                            <h4 class="text-xl font-semibold mb-2 text-primary-900 dark:text-white">Datos Confiables</h4>
+                            <p class="text-neutral-600 dark:text-neutral-300">
+                                Información de fuentes oficiales como ONU, Banco Mundial y organismos internacionales.
+                            </p>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="bg-accent-100 dark:bg-accent-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="trending-up" class="w-8 h-8 text-accent-700 dark:text-accent-300" aria-hidden="true"></i>
+                            </div>
+                            <h4 class="text-xl font-semibold mb-2 text-primary-900 dark:text-white">Visualizaciones</h4>
+                            <p class="text-neutral-600 dark:text-neutral-300">
+                                Gráficos interactivos que facilitan la comprensión de tendencias y patrones históricos.
+                            </p>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="bg-accent-100 dark:bg-accent-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="download" class="w-8 h-8 text-accent-700 dark:text-accent-300" aria-hidden="true"></i>
+                            </div>
+                            <h4 class="text-xl font-semibold mb-2 text-primary-900 dark:text-white">Acceso Abierto</h4>
+                            <p class="text-neutral-600 dark:text-neutral-300">
+                                Todos los datos están disponibles bajo licencia Creative Commons para uso libre.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-neutral-900 rounded-lg p-8 shadow-sm border border-neutral-200 dark:border-neutral-700">
+                        <h4 class="text-xl font-semibold mb-4 text-primary-900 dark:text-white">Fuentes y Licencias</h4>
+                        <p class="text-neutral-600 dark:text-neutral-300 mb-4">
+                            Los datos utilizados provienen de organizaciones reconocidas mundialmente y están disponibles 
+                            bajo licencia <a href="https://creativecommons.org/licenses/by/4.0/" 
+                                           class="text-accent-600 dark:text-accent-400 hover:underline" 
+                                           target="_blank" rel="noopener">Creative Commons BY 4.0</a>.
+                        </p>
+                        <div class="flex flex-wrap gap-4 text-sm">
+                            <a href="https://population.un.org/" 
+                               class="text-accent-600 dark:text-accent-400 hover:underline" 
+                               target="_blank" rel="noopener">UN Population Division</a>
+                            <a href="https://www.worldbank.org/" 
+                               class="text-accent-600 dark:text-accent-400 hover:underline" 
+                               target="_blank" rel="noopener">World Bank</a>
+                            <a href="https://www.iea.org/" 
+                               class="text-accent-600 dark:text-accent-400 hover:underline" 
+                               target="_blank" rel="noopener">International Energy Agency</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary-900 dark:bg-black text-neutral-300 py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-2 mb-4">
+                    <i data-lucide="bar-chart-3" class="w-5 h-5 text-accent-400" aria-hidden="true"></i>
+                    <span class="font-semibold text-white">Observatorio de Estadísticas</span>
+                </div>
+                <p class="text-sm mb-3">
+                    &copy; 2025 Observatorio de Estadísticas. Datos bajo licencia 
+                    <a href="https://creativecommons.org/licenses/by/4.0/" 
+                       class="text-accent-400 hover:underline" 
+                       target="_blank" rel="noopener">CC BY 4.0</a>.
+                </p>
+                <!-- Enlaces legales requeridos por GDPR -->
+                <div class="flex items-center justify-center space-x-4 text-xs">
+                    <a href="legal.html" 
+                       class="text-neutral-400 hover:text-accent-400 transition-colors duration-200">
+                        <i data-lucide="gavel" class="w-3 h-3 inline mr-1"></i>
+                        Términos Legales
+                    </a>
+                    <span class="text-neutral-600">|</span>
+                    <a href="privacy.html" 
+                       class="text-neutral-400 hover:text-accent-400 transition-colors duration-200">
+                        <i data-lucide="shield-check" class="w-3 h-3 inline mr-1"></i>
+                        Política de Privacidad
+                    </a>
+                    <span class="text-neutral-600">|</span>
+                    <span class="text-neutral-500">
+                        <i data-lucide="shield" class="w-3 h-3 inline mr-1"></i>
+                        GDPR Compliant
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/i18n.js" defer></script>
+    <script src="assets/main.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+</body>
+</html>

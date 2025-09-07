@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "language": "es",
+    "name": "Español",
+    "flag": "🇪🇸"
+  },
+  "header": {
+    "title": "Observatorio de Estadísticas",
+    "subtitle": "Datos históricos y actuales con visualizaciones interactivas",
+    "nav": {
+      "home": "Inicio",
+      "datasets": "Datasets",
+      "about": "Acerca de",
+      "legal": "Legal"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Explora 125 años de historia mundial",
+      "subtitle": "Datos verificados desde 1900 hasta 2025. Población, economía, tecnología y medio ambiente en visualizaciones interactivas.",
+      "cta": "Explorar datos"
+    },
+    "categories": {
+      "title": "Categorías de Datos",
+      "all": "Todos"
+    },
+    "datasets": {
+      "title": "Conjuntos de Datos",
+      "subtitle": "Explora nuestra colección de datasets históricos y actuales",
+      "view_data": "Ver datos",
+      "records": "puntos",
+      "featured": "Popular",
+      "filters": "Filtros",
+      "period": "Período:",
+      "coverage": "Cobertura:",
+      "chart_types": "Tipos de gráficos disponibles"
+    }
+  },
+  "dataset": {
+    "loading": "Cargando dataset...",
+    "error": "Error al cargar dataset",
+    "no_id": "No se especificó un ID de dataset en la URL",
+    "not_found": "Dataset no encontrado",
+    "controls": {
+      "year": "Año:",
+      "play": "Reproducir animación",
+      "pause": "Pausar animación",
+      "filter": "Filtrar por:",
+      "global": "Global"
+    },
+    "metadata": {
+      "title": "Información del Dataset",
+      "description": "Descripción",
+      "temporal_coverage": "Cobertura Temporal",
+      "spatial_coverage": "Cobertura Espacial",
+      "source": "Fuente",
+      "updated": "Última Actualización",
+      "download": "Descargar Datos",
+      "fields": "Campos de Datos",
+      "source_info": "Información de la Fuente",
+      "last_updated": "Última Actualización"
+    }
+  },
+  "categories": {
+    "demografia": "Demografía y Sociedad",
+    "economia": "Economía y Finanzas", 
+    "energia": "Energía y Medio Ambiente",
+    "tecnologia": "Tecnología e Innovación",
+    "inteligencia_artificial": "Inteligencia Artificial",
+    "clima_extremo": "Clima y Crisis Ambiental",
+    "economia_digital": "Economía Digital",
+    "salud_futuro": "Salud y Longevidad",
+    "cultura_digital": "Cultura Digital"
+  },
+  "footer": {
+    "copyright": "© 2025 Observatorio de Estadísticas. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "contact": "Contacto"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "back": "Volver atrás",
+    "close": "Cerrar",
+    "search": "Buscar...",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "language": "Idioma"
+  }
+}

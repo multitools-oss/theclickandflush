@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "id": "trabajos_vs_ia_v2",
+    "title": "Trabajos Reemplazados vs Creados por IA (2023–2025)",
+    "description": "Empleos automatizados por IA versus nuevos roles tecnológicos creados, por sector económico",
+    "source": "World Economic Forum, McKinsey Global Institute, Bureau of Labor Statistics",
+    "unit": "millones de empleos",
+    "temporal_coverage": "2023/2025",
+    "spatial_coverage": "Global, por sector",
+    "last_updated": "2025-08-17",
+    "tags": ["IA", "empleos", "automatización", "tecnología", "futuro del trabajo"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "sector",
+    "breakdown_key": "sector"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "sector", "type": "string", "description": "Sector económico" },
+    { "name": "value", "type": "number", "description": "Balance neto de empleos (positivo = más empleos creados, negativo = más perdidos)" }
+  ],
+  "summary": [
+    {"year": 2023, "value": -2.1},
+    {"year": 2024, "value": -1.8},
+    {"year": 2025, "value": 0.3}
+  ],
+  "breakdown": [
+    {"year": 2023, "sector": "Manufactura", "value": -3.2},
+    {"year": 2023, "sector": "Servicios", "value": -1.8},
+    {"year": 2023, "sector": "Tecnología", "value": 2.1},
+    {"year": 2023, "sector": "Salud", "value": 0.5},
+    {"year": 2023, "sector": "Educación", "value": 0.3},
+    
+    {"year": 2024, "sector": "Manufactura", "value": -2.8},
+    {"year": 2024, "sector": "Servicios", "value": -1.5},
+    {"year": 2024, "sector": "Tecnología", "value": 2.8},
+    {"year": 2024, "sector": "Salud", "value": 0.8},
+    {"year": 2024, "sector": "Educación", "value": 0.5},
+    
+    {"year": 2025, "sector": "Manufactura", "value": -2.1},
+    {"year": 2025, "sector": "Servicios", "value": -0.9},
+    {"year": 2025, "sector": "Tecnología", "value": 3.8},
+    {"year": 2025, "sector": "Salud", "value": 1.2},
+    {"year": 2025, "sector": "Educación", "value": 0.8}
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "id": "salud_mental_pandemia_v2",
+    "title": "Salud Mental Post-Pandemia (2020–2025)",
+    "description": "Indicadores de salud mental global: diagnósticos de ansiedad/depresión, uso de apps de meditación y terapia online",
+    "source": "WHO, Mental Health America, app analytics, telehealth reports",
+    "unit": "millones de casos/usuarios",
+    "temporal_coverage": "2020/2025",
+    "spatial_coverage": "Global, por indicador",
+    "last_updated": "2025-08-17",
+    "tags": ["salud mental", "ansiedad", "depresión", "terapia", "meditación", "pandemia"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "indicator",
+    "breakdown_key": "indicator"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "indicator", "type": "string", "description": "Indicador de salud mental" },
+    { "name": "value", "type": "number", "description": "Número de casos o usuarios (millones)" }
+  ],
+  "summary": [
+    {"year": 2020, "value": 1285},
+    {"year": 2021, "value": 1420},
+    {"year": 2022, "value": 1380},
+    {"year": 2023, "value": 1350},
+    {"year": 2024, "value": 1320},
+    {"year": 2025, "value": 1290}
+  ],
+  "breakdown": [
+    {"year": 2020, "indicator": "Diagnósticos Ansiedad", "value": 301},
+    {"year": 2020, "indicator": "Diagnósticos Depresión", "value": 280},
+    {"year": 2020, "indicator": "Apps Meditación", "value": 487},
+    {"year": 2020, "indicator": "Terapia Online", "value": 125},
+    {"year": 2020, "indicator": "Medicación Psiquiátrica", "value": 92},
+    
+    {"year": 2021, "indicator": "Diagnósticos Ansiedad", "value": 340},
+    {"year": 2021, "indicator": "Diagnósticos Depresión", "value": 315},
+    {"year": 2021, "indicator": "Apps Meditación", "value": 520},
+    {"year": 2021, "indicator": "Terapia Online", "value": 165},
+    {"year": 2021, "indicator": "Medicación Psiquiátrica", "value": 80},
+    
+    {"year": 2022, "indicator": "Diagnósticos Ansiedad", "value": 325},
+    {"year": 2022, "indicator": "Diagnósticos Depresión", "value": 298},
+    {"year": 2022, "indicator": "Apps Meditación", "value": 545},
+    {"year": 2022, "indicator": "Terapia Online", "value": 142},
+    {"year": 2022, "indicator": "Medicación Psiquiátrica", "value": 70},
+    
+    {"year": 2023, "indicator": "Diagnósticos Ansiedad", "value": 315},
+    {"year": 2023, "indicator": "Diagnósticos Depresión", "value": 285},
+    {"year": 2023, "indicator": "Apps Meditación", "value": 580},
+    {"year": 2023, "indicator": "Terapia Online", "value": 120},
+    {"year": 2023, "indicator": "Medicación Psiquiátrica", "value": 50},
+    
+    {"year": 2024, "indicator": "Diagnósticos Ansiedad", "value": 305},
+    {"year": 2024, "indicator": "Diagnósticos Depresión", "value": 275},
+    {"year": 2024, "indicator": "Apps Meditación", "value": 615},
+    {"year": 2024, "indicator": "Terapia Online", "value": 95},
+    {"year": 2024, "indicator": "Medicación Psiquiátrica", "value": 30},
+    
+    {"year": 2025, "indicator": "Diagnósticos Ansiedad", "value": 295},
+    {"year": 2025, "indicator": "Diagnósticos Depresión", "value": 265},
+    {"year": 2025, "indicator": "Apps Meditación", "value": 650},
+    {"year": 2025, "indicator": "Terapia Online", "value": 65},
+    {"year": 2025, "indicator": "Medicación Psiquiátrica", "value": 15}
+  ]
+}

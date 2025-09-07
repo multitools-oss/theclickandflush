@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "id": "streaming_video_v1",
+    "title": "Suscripciones a Plataformas de Streaming de Video (2015-2025)",
+    "description": "Número de suscripciones a nivel mundial para las principales plataformas de streaming de video (SVOD).",
+    "version": "2.0",
+    "updated": "2025-08-10",
+    "source": "Digital TV Research, Statista, informes de empresas",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2015/2025",
+    "spatial_coverage": "Global",
+    "unit": "millones de suscripciones",
+    "frequency": "anual"
+  },
+  "fields": [
+    {
+      "name": "year",
+      "type": "integer",
+      "description": "Año del registro"
+    },
+    {
+      "name": "platform",
+      "type": "string",
+      "description": "Plataforma de streaming"
+    },
+    {
+      "name": "value",
+      "type": "number",
+      "description": "Millones de suscripciones"
+    }
+  ],
+  "data": [
+    {"year": 2015, "platform": "Netflix", "value": 74.8},
+    {"year": 2015, "platform": "Amazon Prime Video", "value": 45.2},
+    {"year": 2015, "platform": "Hulu", "value": 11.1},
+    {"year": 2015, "platform": "Otras", "value": 30.5},
+    {"year": 2018, "platform": "Netflix", "value": 139.3},
+    {"year": 2018, "platform": "Amazon Prime Video", "value": 95.7},
+    {"year": 2018, "platform": "Hulu", "value": 25.0},
+    {"year": 2018, "platform": "Disney+", "value": 0},
+    {"year": 2018, "platform": "Otras", "value": 85.1},
+    {"year": 2020, "platform": "Netflix", "value": 203.7},
+    {"year": 2020, "platform": "Amazon Prime Video", "value": 150.0},
+    {"year": 2020, "platform": "Disney+", "value": 94.9},
+    {"year": 2020, "platform": "Hulu", "value": 39.4},
+    {"year": 2020, "platform": "Otras", "value": 150.3},
+    {"year": 2023, "platform": "Netflix", "value": 247.2},
+    {"year": 2023, "platform": "Amazon Prime Video", "value": 220.5},
+    {"year": 2023, "platform": "Disney+", "value": 150.2},
+    {"year": 2023, "platform": "Hulu", "value": 48.5},
+    {"year": 2023, "platform": "Otras", "value": 250.1},
+    {"year": 2025, "platform": "Netflix", "value": 280.0},
+    {"year": 2025, "platform": "Amazon Prime Video", "value": 250.0},
+    {"year": 2025, "platform": "Disney+", "value": 200.0},
+    {"year": 2025, "platform": "Hulu", "value": 55.0},
+    {"year": 2025, "platform": "Otras", "value": 300.0}
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "id": "ia_generativa_v2",
+    "title": "Evolución de la IA Generativa (2020–2025)",
+    "description": "Usuarios activos mensuales de las principales plataformas de IA generativa: ChatGPT, Midjourney, Claude, Gemini y más",
+    "source": "SimilarWeb, Sensor Tower, company reports, industry analysis",
+    "unit": "millones de usuarios activos mensuales",
+    "temporal_coverage": "2020/2025",
+    "spatial_coverage": "Global, por plataforma",
+    "last_updated": "2025-08-17",
+    "tags": ["IA", "ChatGPT", "Midjourney", "Claude", "Gemini", "usuarios", "generativa"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "platform",
+    "breakdown_key": "platform"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "platform", "type": "string", "description": "Plataforma de IA generativa" },
+    { "name": "value", "type": "number", "description": "Usuarios activos mensuales (millones)" }
+  ],
+  "summary": [
+    {"year": 2020, "value": 0.5},
+    {"year": 2021, "value": 2.1},
+    {"year": 2022, "value": 15.8},
+    {"year": 2023, "value": 287.5},
+    {"year": 2024, "value": 456.7},
+    {"year": 2025, "value": 623.4}
+  ],
+  "breakdown": [
+    {"year": 2020, "platform": "ChatGPT", "value": 0},
+    {"year": 2020, "platform": "Midjourney", "value": 0},
+    {"year": 2020, "platform": "Claude", "value": 0},
+    {"year": 2020, "platform": "Gemini", "value": 0},
+    {"year": 2020, "platform": "Otras", "value": 0.5},
+    
+    {"year": 2021, "platform": "ChatGPT", "value": 0},
+    {"year": 2021, "platform": "Midjourney", "value": 0.3},
+    {"year": 2021, "platform": "Claude", "value": 0},
+    {"year": 2021, "platform": "Gemini", "value": 0},
+    {"year": 2021, "platform": "Otras", "value": 1.8},
+    
+    {"year": 2022, "platform": "ChatGPT", "value": 1.2},
+    {"year": 2022, "platform": "Midjourney", "value": 2.5},
+    {"year": 2022, "platform": "Claude", "value": 0.1},
+    {"year": 2022, "platform": "Gemini", "value": 0},
+    {"year": 2022, "platform": "Otras", "value": 12.0},
+    
+    {"year": 2023, "platform": "ChatGPT", "value": 180.5},
+    {"year": 2023, "platform": "Midjourney", "value": 25.6},
+    {"year": 2023, "platform": "Claude", "value": 12.8},
+    {"year": 2023, "platform": "Gemini", "value": 45.2},
+    {"year": 2023, "platform": "Otras", "value": 23.4},
+    
+    {"year": 2024, "platform": "ChatGPT", "value": 200.3},
+    {"year": 2024, "platform": "Midjourney", "value": 35.7},
+    {"year": 2024, "platform": "Claude", "value": 45.2},
+    {"year": 2024, "platform": "Gemini", "value": 125.8},
+    {"year": 2024, "platform": "Otras", "value": 49.7},
+    
+    {"year": 2025, "platform": "ChatGPT", "value": 215.6},
+    {"year": 2025, "platform": "Midjourney", "value": 48.2},
+    {"year": 2025, "platform": "Claude", "value": 78.9},
+    {"year": 2025, "platform": "Gemini", "value": 189.3},
+    {"year": 2025, "platform": "Otras", "value": 91.4}
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "turismo_internacional_v2",
+    "title": "Llegadas de Turistas Internacionales por Región (1995-2025)",
+    "description": "Número de llegadas de turistas internacionales, con resumen global y desglose por región de destino.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "Organización Mundial del Turismo (OMT)",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "1995/2025",
+    "spatial_coverage": "Global, por región",
+    "unit": "millones de llegadas",
+    "frequency": "variable",
+    "breakdown_key": "region"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "region", "type": "string", "description": "Región de destino" },
+    { "name": "value", "type": "number", "description": "Millones de llegadas de turistas" }
+  ],
+  "summary": [
+      { "year": 1995, "value": 535.1 },
+      { "year": 2005, "value": 815.0 },
+      { "year": 2019, "value": 1455.8 },
+      { "year": 2020, "value": 385.4 },
+      { "year": 2023, "value": 1293.0 },
+      { "year": 2025, "value": 1526.4 }
+  ],
+  "breakdown": [
+    {"year": 1995, "region": "Europa", "value": 309.4},
+    {"year": 1995, "region": "Asia y Pacífico", "value": 81.9},
+    {"year": 1995, "region": "América", "value": 108.9},
+    {"year": 1995, "region": "Medio Oriente", "value": 14.7},
+    {"year": 1995, "region": "África", "value": 20.2},
+    {"year": 2005, "region": "Europa", "value": 441.5},
+    {"year": 2005, "region": "Asia y Pacífico", "value": 156.8},
+    {"year": 2005, "region": "América", "value": 145.2},
+    {"year": 2005, "region": "Medio Oriente", "value": 36.7},
+    {"year": 2005, "region": "África", "value": 34.8},
+    {"year": 2019, "region": "Europa", "value": 744.3},
+    {"year": 2019, "region": "Asia y Pacífico", "value": 360.7},
+    {"year": 2019, "region": "América", "value": 219.1},
+    {"year": 2019, "region": "Medio Oriente", "value": 61.3},
+    {"year": 2019, "region": "África", "value": 70.2},
+    {"year": 2020, "region": "Europa", "value": 220.1},
+    {"year": 2020, "region": "Asia y Pacífico", "value": 58.9},
+    {"year": 2020, "region": "América", "value": 69.8},
+    {"year": 2020, "region": "Medio Oriente", "value": 18.2},
+    {"year": 2020, "region": "África", "value": 18.4},
+    {"year": 2023, "region": "Europa", "value": 695.2},
+    {"year": 2023, "region": "Asia y Pacífico", "value": 288.1},
+    {"year": 2023, "region": "América", "value": 195.6},
+    {"year": 2023, "region": "Medio Oriente", "value": 58.9},
+    {"year": 2023, "region": "África", "value": 65.1},
+    {"year": 2025, "region": "Europa", "value": 780.5},
+    {"year": 2025, "region": "Asia y Pacífico", "value": 380.2},
+    {"year": 2025, "region": "América", "value": 230.4},
+    {"year": 2025, "region": "Medio Oriente", "value": 65.0},
+    {"year": 2025, "region": "África", "value": 75.3}
+  ]
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- DATASETS TRENDING 2025 -->
+    
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=ia_generativa_v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://theclickandflush.com/assets/images/datasets/inteligencia_artificial.svg</image:loc>
+            <image:title>Evolución de la IA Generativa 2020-2025</image:title>
+            <image:caption>ChatGPT, Midjourney, Claude, Gemini - Usuarios activos mensuales</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=creadores_contenido_v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://theclickandflush.com/assets/images/datasets/economia_digital.svg</image:loc>
+            <image:title>Boom de los Creadores de Contenido 2018-2025</image:title>
+            <image:caption>YouTube, TikTok, OnlyFans, Twitch - Ingresos anuales</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=salud_mental_pandemia_v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://theclickandflush.com/assets/images/datasets/salud_futuro.svg</image:loc>
+            <image:title>Salud Mental Post-Pandemia 2020-2025</image:title>
+            <image:caption>Ansiedad, depresión, apps de meditación y terapia online</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=trabajos_vs_ia_v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://theclickandflush.com/assets/images/datasets/inteligencia_artificial.svg</image:loc>
+            <image:title>Trabajos Reemplazados vs Creados por IA 2023-2025</image:title>
+            <image:caption>Automatización laboral vs nuevos empleos tecnológicos</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=migracion_climatica_v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://theclickandflush.com/assets/images/datasets/clima_extremo.svg</image:loc>
+            <image:title>Migración Climática Global 2010-2025</image:title>
+            <image:caption>Desplazados por sequías, inundaciones y eventos climáticos</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=records_temperatura_v2</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://theclickandflush.com/assets/images/datasets/clima_extremo.svg</image:loc>
+            <image:title>Récords de Temperatura Extrema Mundial 2000-2025</image:title>
+            <image:caption>Temperaturas máximas récord por continente</image:caption>
+        </image:image>
+    </url>
+
+    <!-- DATASETS CLÁSICOS MÁS POPULARES -->
+    
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=poblacion_mundial_v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://theclickandflush.com/assets/images/datasets/demografia.svg</image:loc>
+            <image:title>Población Mundial por Continente 1950-2025</image:title>
+            <image:caption>Datos históricos y proyecciones demográficas mundiales</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=pib_per_capita_v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://theclickandflush.com/assets/images/datasets/economia.svg</image:loc>
+            <image:title>PIB per Cápita por Continente 1960-2025</image:title>
+            <image:caption>Producto Interno Bruto per cápita mundial</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://theclickandflush.com/dataset.html?id=emisiones_co2_v2</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://theclickandflush.com/assets/images/datasets/energia.svg</image:loc>
+            <image:title>Emisiones de CO2 por Continente 1960-2025</image:title>
+            <image:caption>Emisiones de dióxido de carbono mundiales</image:caption>
+        </image:image>
+    </url>
+
+</urlset>

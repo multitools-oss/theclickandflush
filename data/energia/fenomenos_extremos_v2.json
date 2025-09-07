@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "fenomenos_extremos_v2",
+    "title": "Fenómenos Naturales Extremos Mundiales (1980–2025)",
+    "description": "Frecuencia anual de eventos climáticos extremos: huracanes categoría 5, terremotos magnitud 7+, erupciones volcánicas y tsunamis",
+    "source": "NOAA, USGS, Smithsonian Institution",
+    "unit": "eventos",
+    "temporal_coverage": "1980/2025",
+    "spatial_coverage": "Global",
+    "last_updated": "2025-08-17",
+    "tags": ["clima extremo", "desastres naturales", "terremotos", "huracanes", "volcanes"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "phenomenon",
+    "filters": [
+      {"id": "global", "name": "Todos los Fenómenos", "color": "#667eea"},
+      {"id": "huracanes", "name": "Huracanes Cat. 5", "color": "#dc2626"},
+      {"id": "terremotos", "name": "Terremotos 7.0+", "color": "#92400e"},
+      {"id": "volcanes", "name": "Erupciones Volcánicas", "color": "#ea580c"},
+      {"id": "tsunamis", "name": "Tsunamis", "color": "#0ea5e9"}
+    ]
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "global", "type": "integer", "description": "Total global de fenómenos extremos" },
+    { "name": "huracanes", "type": "integer", "description": "Número de huracanes categoría 4-5" },
+    { "name": "terremotos", "type": "integer", "description": "Terremotos magnitud 7+" },
+    { "name": "inundaciones", "type": "integer", "description": "Inundaciones severas" },
+    { "name": "sequias", "type": "integer", "description": "Sequías extremas" },
+    { "name": "incendios", "type": "integer", "description": "Incendios forestales masivos" }
+  ],
+  "data": [
+    {"year": 1980, "global": 23, "huracanes": 2, "terremotos": 12, "volcanes": 8, "tsunamis": 1},
+    {"year": 1985, "global": 31, "huracanes": 3, "terremotos": 15, "volcanes": 11, "tsunamis": 2},
+    {"year": 1990, "global": 28, "huracanes": 1, "terremotos": 16, "volcanes": 9, "tsunamis": 2},
+    {"year": 1995, "global": 35, "huracanes": 5, "terremotos": 18, "volcanes": 10, "tsunamis": 2},
+    {"year": 1998, "global": 42, "huracanes": 3, "terremotos": 20, "volcanes": 16, "tsunamis": 3},
+    {"year": 2000, "global": 29, "huracanes": 2, "terremotos": 14, "volcanes": 11, "tsunamis": 2},
+    {"year": 2003, "global": 38, "huracanes": 3, "terremotos": 17, "volcanes": 15, "tsunamis": 3},
+    {"year": 2004, "global": 45, "huracanes": 6, "terremotos": 16, "volcanes": 18, "tsunamis": 5},
+    {"year": 2005, "global": 52, "huracanes": 7, "terremotos": 19, "volcanes": 22, "tsunamis": 4},
+    {"year": 2007, "global": 34, "huracanes": 2, "terremotos": 18, "volcanes": 12, "tsunamis": 2},
+    {"year": 2008, "global": 41, "huracanes": 5, "terremotos": 16, "volcanes": 17, "tsunamis": 3},
+    {"year": 2010, "global": 48, "huracanes": 3, "terremotos": 21, "volcanes": 20, "tsunamis": 4},
+    {"year": 2011, "global": 56, "huracanes": 4, "terremotos": 24, "volcanes": 25, "tsunamis": 3},
+    {"year": 2012, "global": 39, "huracanes": 2, "terremotos": 19, "volcanes": 16, "tsunamis": 2},
+    {"year": 2013, "global": 44, "huracanes": 2, "terremotos": 20, "volcanes": 19, "tsunamis": 3},
+    {"year": 2014, "global": 37, "huracanes": 2, "terremotos": 17, "volcanes": 16, "tsunamis": 2},
+    {"year": 2015, "global": 41, "huracanes": 4, "terremotos": 18, "volcanes": 17, "tsunamis": 2},
+    {"year": 2016, "global": 35, "huracanes": 2, "terremotos": 16, "volcanes": 15, "tsunamis": 2},
+    {"year": 2017, "global": 49, "huracanes": 6, "terremotos": 19, "volcanes": 21, "tsunamis": 3},
+    {"year": 2018, "global": 52, "huracanes": 5, "terremotos": 22, "volcanes": 22, "tsunamis": 3},
+    {"year": 2019, "global": 46, "huracanes": 5, "terremotos": 18, "volcanes": 20, "tsunamis": 3},
+    {"year": 2020, "global": 58, "huracanes": 6, "terremotos": 21, "volcanes": 27, "tsunamis": 4},
+    {"year": 2021, "global": 51, "huracanes": 4, "terremotos": 19, "volcanes": 25, "tsunamis": 3},
+    {"year": 2022, "global": 47, "huracanes": 2, "terremotos": 20, "volcanes": 22, "tsunamis": 3},
+    {"year": 2023, "global": 54, "huracanes": 5, "terremotos": 22, "volcanes": 24, "tsunamis": 3},
+    {"year": 2024, "global": 49, "huracanes": 4, "terremotos": 19, "volcanes": 23, "tsunamis": 3},
+    {"year": 2025, "global": 52, "huracanes": 5, "terremotos": 21, "volcanes": 23, "tsunamis": 3}
+  ]
+}

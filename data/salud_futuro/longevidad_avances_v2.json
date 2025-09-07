@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "id": "longevidad_avances_v2",
+    "title": "Avances en Longevidad Humana (2020–2025)",
+    "description": "Inversión en investigación anti-envejecimiento, tratamientos disponibles y expectativa de vida máxima",
+    "source": "Altos Labs, Calico, Methuselah Foundation, longevity research institutes",
+    "unit": "miles de millones USD / años / tratamientos",
+    "temporal_coverage": "2020/2025",
+    "spatial_coverage": "Global, por tipo de avance",
+    "last_updated": "2025-08-17",
+    "tags": ["longevidad", "anti-envejecimiento", "investigación", "expectativa de vida", "biotecnología"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "metric",
+    "breakdown_key": "metric"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "metric", "type": "string", "description": "Métrica de avances en longevidad" },
+    { "name": "value", "type": "number", "description": "Valor de la métrica" }
+  ],
+  "summary": [
+    {"year": 2020, "value": 245.8},
+    {"year": 2021, "value": 312.4},
+    {"year": 2022, "value": 389.7},
+    {"year": 2023, "value": 478.9},
+    {"year": 2024, "value": 582.3},
+    {"year": 2025, "value": 701.5}
+  ],
+  "breakdown": [
+    {"year": 2020, "metric": "Inversión I+D (miles millones USD)", "value": 8.5},
+    {"year": 2020, "metric": "Tratamientos Disponibles", "value": 23},
+    {"year": 2020, "metric": "Expectativa Vida Máxima (años)", "value": 122.5},
+    {"year": 2020, "metric": "Empresas Longevidad", "value": 89},
+    {"year": 2020, "metric": "Ensayos Clínicos Activos", "value": 2.8},
+    
+    {"year": 2021, "metric": "Inversión I+D (miles millones USD)", "value": 12.8},
+    {"year": 2021, "metric": "Tratamientos Disponibles", "value": 31},
+    {"year": 2021, "metric": "Expectativa Vida Máxima (años)", "value": 122.8},
+    {"year": 2021, "metric": "Empresas Longevidad", "value": 142},
+    {"year": 2021, "metric": "Ensayos Clínicos Activos", "value": 3.8},
+    
+    {"year": 2022, "metric": "Inversión I+D (miles millones USD)", "value": 18.9},
+    {"year": 2022, "metric": "Tratamientos Disponibles", "value": 42},
+    {"year": 2022, "metric": "Expectativa Vida Máxima (años)", "value": 123.2},
+    {"year": 2022, "metric": "Empresas Longevidad", "value": 198},
+    {"year": 2022, "metric": "Ensayos Clínicos Activos", "value": 6.8},
+    
+    {"year": 2023, "metric": "Inversión I+D (miles millones USD)", "value": 25.4},
+    {"year": 2023, "metric": "Tratamientos Disponibles", "value": 58},
+    {"year": 2023, "metric": "Expectativa Vida Máxima (años)", "value": 123.7},
+    {"year": 2023, "metric": "Empresas Longevidad", "value": 267},
+    {"year": 2023, "metric": "Ensayos Clínicos Activos", "value": 9.8},
+    
+    {"year": 2024, "metric": "Inversión I+D (miles millones USD)", "value": 34.7},
+    {"year": 2024, "metric": "Tratamientos Disponibles", "value": 78},
+    {"year": 2024, "metric": "Expectativa Vida Máxima (años)", "value": 124.1},
+    {"year": 2024, "metric": "Empresas Longevidad", "value": 345},
+    {"year": 2024, "metric": "Ensayos Clínicos Activos", "value": 14.5},
+    
+    {"year": 2025, "metric": "Inversión I+D (miles millones USD)", "value": 47.2},
+    {"year": 2025, "metric": "Tratamientos Disponibles", "value": 105},
+    {"year": 2025, "metric": "Expectativa Vida Máxima (años)", "value": 124.6},
+    {"year": 2025, "metric": "Empresas Longevidad", "value": 438},
+    {"year": 2025, "metric": "Ensayos Clínicos Activos", "value": 21.7}
+  ]
+}

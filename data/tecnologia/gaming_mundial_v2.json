@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "id": "gaming_mundial_v1",
+    "title": "Ingresos de la Industria del Gaming por Segmento (2015-2025)",
+    "description": "Ingresos anuales globales de la industria de los videojuegos, desagregados por segmento de mercado.",
+    "version": "2.0",
+    "updated": "2025-08-10",
+    "source": "Newzoo, Statista",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2015/2025",
+    "spatial_coverage": "Global",
+    "unit": "miles de millones de USD",
+    "frequency": "anual"
+  },
+  "fields": [
+    {
+      "name": "year",
+      "type": "integer",
+      "description": "Año del registro"
+    },
+    {
+      "name": "segment",
+      "type": "string",
+      "description": "Segmento del mercado de videojuegos"
+    },
+    {
+      "name": "value",
+      "type": "number",
+      "description": "Ingresos en miles de millones de USD"
+    }
+  ],
+  "data": [
+    {"year": 2015, "segment": "Juegos Móviles (Smartphones y Tablets)", "value": 34.8},
+    {"year": 2015, "segment": "Juegos de Consola", "value": 27.5},
+    {"year": 2015, "segment": "Juegos de PC (Descargados y en Caja)", "value": 29.4},
+    {"year": 2015, "segment": "Juegos de Navegador PC", "value": 5.8},
+    {"year": 2018, "segment": "Juegos Móviles (Smartphones y Tablets)", "value": 70.3},
+    {"year": 2018, "segment": "Juegos de Consola", "value": 38.3},
+    {"year": 2018, "segment": "Juegos de PC (Descargados y en Caja)", "value": 33.4},
+    {"year": 2018, "segment": "Juegos de Navegador PC", "value": 3.5},
+    {"year": 2021, "segment": "Juegos Móviles (Smartphones y Tablets)", "value": 93.2},
+    {"year": 2021, "segment": "Juegos de Consola", "value": 50.4},
+    {"year": 2021, "segment": "Juegos de PC (Descargados y en Caja)", "value": 36.7},
+    {"year": 2021, "segment": "Juegos de Navegador PC", "value": 2.3},
+    {"year": 2023, "segment": "Juegos Móviles (Smartphones y Tablets)", "value": 105.6},
+    {"year": 2023, "segment": "Juegos de Consola", "value": 58.9},
+    {"year": 2023, "segment": "Juegos de PC (Descargados y en Caja)", "value": 40.1},
+    {"year": 2023, "segment": "Juegos de Navegador PC", "value": 1.9},
+    {"year": 2025, "segment": "Juegos Móviles (Smartphones y Tablets)", "value": 125.0},
+    {"year": 2025, "segment": "Juegos de Consola", "value": 65.2},
+    {"year": 2025, "segment": "Juegos de PC (Descargados y en Caja)", "value": 45.3},
+    {"year": 2025, "segment": "Juegos de Navegador PC", "value": 1.5}
+  ]
+}

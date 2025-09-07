@@ -1,0 +1,70 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#aiGradient)"/>
+  
+  <!-- Neural Network -->
+  <g fill="white" opacity="0.9">
+    <!-- Input layer -->
+    <circle cx="60" cy="60" r="8"/>
+    <circle cx="60" cy="100" r="8"/>
+    <circle cx="60" cy="140" r="8"/>
+    
+    <!-- Hidden layer 1 -->
+    <circle cx="150" cy="50" r="6"/>
+    <circle cx="150" cy="80" r="6"/>
+    <circle cx="150" cy="110" r="6"/>
+    <circle cx="150" cy="140" r="6"/>
+    <circle cx="150" cy="170" r="6"/>
+    
+    <!-- Hidden layer 2 -->
+    <circle cx="240" cy="70" r="6"/>
+    <circle cx="240" cy="100" r="6"/>
+    <circle cx="240" cy="130" r="6"/>
+    
+    <!-- Output layer -->
+    <circle cx="330" cy="100" r="8"/>
+  </g>
+  
+  <!-- Connections -->
+  <g stroke="white" stroke-width="1" opacity="0.6">
+    <!-- Input to hidden 1 -->
+    <line x1="68" y1="60" x2="142" y2="50"/>
+    <line x1="68" y1="60" x2="142" y2="80"/>
+    <line x1="68" y1="100" x2="142" y2="110"/>
+    <line x1="68" y1="140" x2="142" y2="140"/>
+    <line x1="68" y1="140" x2="142" y2="170"/>
+    
+    <!-- Hidden 1 to hidden 2 -->
+    <line x1="156" y1="80" x2="234" y2="70"/>
+    <line x1="156" y1="110" x2="234" y2="100"/>
+    <line x1="156" y1="140" x2="234" y2="130"/>
+    
+    <!-- Hidden 2 to output -->
+    <line x1="246" y1="100" x2="322" y2="100"/>
+  </g>
+  
+  <!-- Brain icon -->
+  <g fill="white" opacity="0.8">
+    <path d="M 350 40 Q 370 30 380 50 Q 385 35 390 45 Q 395 30 385 60 Q 390 75 370 70 Q 350 80 340 60 Q 335 45 350 40 Z"/>
+  </g>
+  
+  <!-- Data streams -->
+  <g fill="white" opacity="0.7">
+    <rect x="20" y="30" width="3" height="8"/>
+    <rect x="25" y="35" width="3" height="6"/>
+    <rect x="30" y="32" width="3" height="10"/>
+    <rect x="35" y="28" width="3" height="12"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Inteligencia Artificial
+  </text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "id": "ciberseguridad_v2",
+    "title": "Costo Global de la Ciberdelincuencia por Tipo de Ataque (2015-2025)",
+    "description": "Costo anual estimado de la ciberdelincuencia, con resumen global y desglose por tipo de ataque.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "Cybersecurity Ventures, Statista, IBM Security, Check Point Research",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2015/2025",
+    "spatial_coverage": "Global",
+    "unit": "billones de USD",
+    "frequency": "variable",
+    "breakdown_key": "attack_type"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "attack_type", "type": "string", "description": "Tipo de ciberataque" },
+    { "name": "value", "type": "number", "description": "Costo en billones de USD" }
+  ],
+  "summary": [
+      { "year": 2015, "value": 3.0 },
+      { "year": 2018, "value": 6.0 },
+      { "year": 2021, "value": 13.0 },
+      { "year": 2023, "value": 17.5 },
+      { "year": 2025, "value": 23.0 }
+  ],
+  "breakdown": [
+    {"year": 2015, "attack_type": "Violación de Datos (Data Breach)", "value": 1.2},
+    {"year": 2015, "attack_type": "Ransomware", "value": 0.3},
+    {"year": 2015, "attack_type": "Ataques de Malware/Spyware", "value": 0.8},
+    {"year": 2015, "attack_type": "Phishing y Fraude", "value": 0.5},
+    {"year": 2015, "attack_type": "Otros", "value": 0.2},
+    {"year": 2018, "attack_type": "Violación de Datos (Data Breach)", "value": 2.1},
+    {"year": 2018, "attack_type": "Ransomware", "value": 1.5},
+    {"year": 2018, "attack_type": "Ataques de Malware/Spyware", "value": 1.2},
+    {"year": 2018, "attack_type": "Phishing y Fraude", "value": 0.8},
+    {"year": 2018, "attack_type": "Otros", "value": 0.4},
+    {"year": 2021, "attack_type": "Violación de Datos (Data Breach)", "value": 4.2},
+    {"year": 2021, "attack_type": "Ransomware", "value": 3.8},
+    {"year": 2021, "attack_type": "Ataques de Malware/Spyware", "value": 2.5},
+    {"year": 2021, "attack_type": "Phishing y Fraude", "value": 1.5},
+    {"year": 2021, "attack_type": "Otros", "value": 1.0},
+    {"year": 2023, "attack_type": "Violación de Datos (Data Breach)", "value": 5.5},
+    {"year": 2023, "attack_type": "Ransomware", "value": 5.1},
+    {"year": 2023, "attack_type": "Ataques de Malware/Spyware", "value": 3.2},
+    {"year": 2023, "attack_type": "Phishing y Fraude", "value": 2.2},
+    {"year": 2023, "attack_type": "Otros", "value": 1.5},
+    {"year": 2025, "attack_type": "Violación de Datos (Data Breach)", "value": 7.0},
+    {"year": 2025, "attack_type": "Ransomware", "value": 6.8},
+    {"year": 2025, "attack_type": "Ataques de Malware/Spyware", "value": 4.0},
+    {"year": 2025, "attack_type": "Phishing y Fraude", "value": 3.0},
+    {"year": 2025, "attack_type": "Otros", "value": 2.2}
+  ]
+}

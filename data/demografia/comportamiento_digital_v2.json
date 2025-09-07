@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "id": "comportamiento_digital_v2",
+    "title": "Comportamiento Digital Humano (2000–2025)",
+    "description": "Datos fascinantes sobre el comportamiento humano en la era digital: tiempo en pantallas, selfies, emails y búsquedas por día",
+    "source": "Statista, Google, Meta, diversos estudios",
+    "unit": "minutos/día o cantidad/día",
+    "temporal_coverage": "2000/2025",
+    "spatial_coverage": "Global",
+    "last_updated": "2025-08-17",
+    "tags": ["comportamiento", "digital", "redes sociales", "tecnología", "hábitos"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "behavior",
+    "filters": [
+      {"id": "global", "name": "Promedio Global", "color": "#667eea"},
+      {"id": "pantalla", "name": "Tiempo en Pantalla (min/día)", "color": "#0ea5e9"},
+      {"id": "selfies", "name": "Selfies Tomadas (millones/día)", "color": "#f59e0b"},
+      {"id": "emails", "name": "Emails Enviados (billones/día)", "color": "#10b981"},
+      {"id": "busquedas", "name": "Búsquedas Google (billones/día)", "color": "#8b5cf6"}
+    ]
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "tiempo_pantalla", "type": "number", "description": "Tiempo promedio diario frente a pantallas (horas)" },
+    { "name": "selfies_diarias", "type": "number", "description": "Selfies tomadas diariamente a nivel global (millones)" },
+    { "name": "emails_diarios", "type": "number", "description": "Emails enviados diariamente a nivel global (miles de millones)" },
+    { "name": "busquedas_google", "type": "number", "description": "Búsquedas diarias en Google (miles de millones)" }
+  ],
+  "data": [
+    {"year": 2000, "global": 100, "pantalla": 180, "selfies": 0, "emails": 12, "busquedas": 0.1},
+    {"year": 2005, "global": 150, "pantalla": 240, "selfies": 0, "emails": 35, "busquedas": 0.2},
+    {"year": 2007, "global": 180, "pantalla": 280, "selfies": 0, "emails": 62, "busquedas": 0.3},
+    {"year": 2010, "global": 220, "pantalla": 320, "selfies": 5, "emails": 107, "busquedas": 2.0},
+    {"year": 2012, "global": 280, "pantalla": 380, "selfies": 35, "emails": 144, "busquedas": 3.2},
+    {"year": 2013, "global": 320, "pantalla": 420, "selfies": 93, "emails": 183, "busquedas": 3.5},
+    {"year": 2014, "global": 360, "pantalla": 460, "selfies": 150, "emails": 196, "busquedas": 3.8},
+    {"year": 2015, "global": 400, "pantalla": 500, "selfies": 240, "emails": 205, "busquedas": 4.0},
+    {"year": 2016, "global": 440, "pantalla": 540, "selfies": 350, "emails": 215, "busquedas": 4.2},
+    {"year": 2017, "global": 480, "pantalla": 580, "selfies": 460, "emails": 225, "busquedas": 4.5},
+    {"year": 2018, "global": 520, "pantalla": 620, "selfies": 580, "emails": 281, "busquedas": 5.0},
+    {"year": 2019, "global": 560, "pantalla": 660, "selfies": 720, "emails": 293, "busquedas": 5.6},
+    {"year": 2020, "global": 720, "pantalla": 780, "selfies": 1200, "emails": 306, "busquedas": 7.0},
+    {"year": 2021, "global": 680, "pantalla": 740, "selfies": 1350, "emails": 319, "busquedas": 8.5},
+    {"year": 2022, "global": 650, "pantalla": 710, "selfies": 1480, "emails": 333, "busquedas": 8.8},
+    {"year": 2023, "global": 640, "pantalla": 700, "selfies": 1620, "emails": 347, "busquedas": 9.1},
+    {"year": 2024, "global": 630, "pantalla": 690, "selfies": 1750, "emails": 361, "busquedas": 9.4},
+    {"year": 2025, "global": 625, "pantalla": 685, "selfies": 1850, "emails": 375, "busquedas": 9.7}
+  ]
+}

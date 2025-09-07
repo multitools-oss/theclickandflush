@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Observatorio de Estadísticas</title>
+    <meta name="description" content="Política de privacidad y protección de datos del Observatorio de Estadísticas. Cumplimiento GDPR y tratamiento de datos personales.">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Favicon y iconos -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#667eea">
+    
+    <link rel="canonical" href="https://theclickandflush.com/privacy.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Analytics (GDPR Compliant) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJLS0N9BPM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        // Configuración GDPR-compliant
+        gtag('config', 'G-KJLS0N9BPM', {
+            'anonymize_ip': true,
+            'allow_google_signals': false,
+            'allow_ad_personalization_signals': false
+        });
+    </script>
+    
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .privacy-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            margin: 2rem auto;
+            max-width: 1000px;
+            padding: 3rem;
+        }
+        
+        .privacy-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        .privacy-header h1 {
+            color: #2c3e50;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .privacy-section {
+            margin-bottom: 2.5rem;
+        }
+        
+        .privacy-section h2 {
+            color: #34495e;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .privacy-section h3 {
+            color: #495057;
+            font-weight: 500;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .privacy-section p, .privacy-section li {
+            color: #6c757d;
+            line-height: 1.6;
+            margin-bottom: 0.75rem;
+        }
+        
+        .privacy-section ul {
+            padding-left: 1.5rem;
+        }
+        
+        .highlight-box {
+            background: #e3f2fd;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #2196f3;
+            margin: 1rem 0;
+        }
+        
+        .warning-box {
+            background: #fff3e0;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #ff9800;
+            margin: 1rem 0;
+        }
+        
+        .contact-info {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #28a745;
+        }
+        
+        .back-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border: none;
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            margin-bottom: 2rem;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .rights-table {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .rights-table th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: #6c757d;
+            font-style: italic;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="privacy-container">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                Volver al Observatorio
+            </a>
+            
+            <div class="privacy-header">
+                <h1><i class="fas fa-shield-alt me-3"></i>Política de Privacidad</h1>
+                <p class="lead">Protección de datos personales conforme al RGPD</p>
+            </div>
+
+            <div class="highlight-box">
+                <h3><i class="fas fa-info-circle me-2"></i>Información Importante</h3>
+                <p><strong>Esta política cumple con el Reglamento General de Protección de Datos (RGPD) de la Unión Europea.</strong> Describimos cómo recopilamos, utilizamos y protegemos su información personal.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>1. Responsable del Tratamiento</h2>
+                <div class="contact-info">
+                    <p><strong>Denominación:</strong> Observatorio de Estadísticas</p>
+                    <p><strong>Email de contacto:</strong> privacy@theclickandflush.com</p>
+                    <p><strong>Delegado de Protección de Datos:</strong> dpo@theclickandflush.com</p>
+                    <p><strong>Finalidad principal:</strong> Proporcionar servicios de análisis estadístico</p>
+                </div>
+            </div>
+
+            <div class="privacy-section">
+                <h2>2. Datos que Recopilamos</h2>
+                
+                <h3>2.1 Datos de Navegación (Automáticos)</h3>
+                <ul>
+                    <li><strong>Dirección IP:</strong> Para análisis de tráfico y seguridad</li>
+                    <li><strong>Información del navegador:</strong> Tipo, versión, idioma</li>
+                    <li><strong>Datos de uso:</strong> Páginas visitadas, tiempo de permanencia</li>
+                    <li><strong>Cookies técnicas:</strong> Para funcionalidad básica del sitio</li>
+                </ul>
+
+                <h3>2.2 Datos Proporcionados Voluntariamente</h3>
+                <ul>
+                    <li><strong>Formularios de contacto:</strong> Nombre, email, mensaje</li>
+                    <li><strong>Suscripciones:</strong> Email para actualizaciones (si aplica)</li>
+                    <li><strong>Comentarios:</strong> En caso de funcionalidad de feedback</li>
+                </ul>
+
+                <div class="warning-box">
+                    <p><strong>Importante:</strong> No recopilamos datos sensibles como información médica, política, religiosa o biométrica.</p>
+                </div>
+            </div>
+
+            <div class="privacy-section">
+                <h2>3. Base Legal y Finalidades</h2>
+                
+                <table class="table rights-table">
+                    <thead>
+                        <tr>
+                            <th>Finalidad</th>
+                            <th>Base Legal</th>
+                            <th>Tiempo de Conservación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Funcionamiento del sitio web</td>
+                            <td>Interés legítimo</td>
+                            <td>Durante la sesión</td>
+                        </tr>
+                        <tr>
+                            <td>Análisis de tráfico (Google Analytics)</td>
+                            <td>Interés legítimo</td>
+                            <td>26 meses máximo</td>
+                        </tr>
+                        <tr>
+                            <td>Respuesta a consultas</td>
+                            <td>Consentimiento</td>
+                            <td>2 años desde último contacto</td>
+                        </tr>
+                        <tr>
+                            <td>Cumplimiento legal</td>
+                            <td>Obligación legal</td>
+                            <td>Según normativa aplicable</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="privacy-section">
+                <h2>4. Sus Derechos (RGPD)</h2>
+                <p>Como titular de los datos, usted tiene los siguientes derechos:</p>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="fas fa-eye text-primary"></i> Derecho de Acceso</h3>
+                        <p>Conocer qué datos tenemos sobre usted</p>
+                        
+                        <h3><i class="fas fa-edit text-warning"></i> Derecho de Rectificación</h3>
+                        <p>Corregir datos inexactos o incompletos</p>
+                        
+                        <h3><i class="fas fa-trash text-danger"></i> Derecho de Supresión</h3>
+                        <p>Solicitar la eliminación de sus datos</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3><i class="fas fa-ban text-secondary"></i> Derecho de Oposición</h3>
+                        <p>Oponerse al tratamiento de sus datos</p>
+                        
+                        <h3><i class="fas fa-download text-info"></i> Derecho de Portabilidad</h3>
+                        <p>Recibir sus datos en formato estructurado</p>
+                        
+                        <h3><i class="fas fa-pause text-muted"></i> Derecho de Limitación</h3>
+                        <p>Restringir el procesamiento de sus datos</p>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>¿Cómo ejercer sus derechos?</h3>
+                    <p>Envíe un email a <strong>privacy@theclickandflush.com</strong> indicando:</p>
+                    <ul>
+                        <li>Su nombre completo</li>
+                        <li>El derecho que desea ejercer</li>
+                        <li>Motivo de la solicitud (si aplica)</li>
+                    </ul>
+                    <p><strong>Plazo de respuesta:</strong> Máximo 30 días naturales</p>
+                </div>
+            </div>
+
+            <div class="privacy-section">
+                <h2>5. Cookies y Tecnologías Similares</h2>
+                
+                <h3>5.1 Tipos de Cookies que Utilizamos</h3>
+                <ul>
+                    <li><strong>Cookies técnicas:</strong> Esenciales para el funcionamiento</li>
+                    <li><strong>Cookies de análisis (Google Analytics):</strong> Para mejorar la experiencia del usuario</li>
+                    <li><strong>Cookies de preferencias:</strong> Para recordar configuraciones</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <h4><i class="fas fa-chart-line me-2"></i>Google Analytics</h4>
+                    <p>Utilizamos Google Analytics con configuración compatible con GDPR:</p>
+                    <ul>
+                        <li><strong>Anonimización de IP:</strong> Activada para proteger la privacidad</li>
+                        <li><strong>Señales de Google:</strong> Desactivadas</li>
+                        <li><strong>Personalización de anuncios:</strong> Desactivada</li>
+                        <li><strong>Finalidad:</strong> Análisis de tráfico web y mejora del sitio</li>
+                        <li><strong>Conservación:</strong> 26 meses máximo</li>
+                    </ul>
+                    <p><strong>Más información:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a></p>
+                </div>
+
+                <h3>5.2 Gestión de Cookies</h3>
+                <p>Puede gestionar las cookies desde la configuración de su navegador:</p>
+                <ul>
+                    <li>Aceptar o rechazar cookies</li>
+                    <li>Eliminar cookies existentes</li>
+                    <li>Configurar notificaciones de cookies</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>6. Seguridad de los Datos</h2>
+                <p>Implementamos medidas técnicas y organizativas apropiadas:</p>
+                <ul>
+                    <li><strong>Cifrado:</strong> Conexiones HTTPS en todo el sitio</li>
+                    <li><strong>Acceso restringido:</strong> Solo personal autorizado</li>
+                    <li><strong>Copias de seguridad:</strong> Regulares y seguras</li>
+                    <li><strong>Monitoreo:</strong> Detección de actividades sospechosas</li>
+                    <li><strong>Actualizaciones:</strong> Sistemas siempre actualizados</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>7. Transferencias Internacionales</h2>
+                <p>En caso de transferir datos fuera del Espacio Económico Europeo:</p>
+                <ul>
+                    <li>Solo a países con decisión de adecuación de la UE</li>
+                    <li>O mediante garantías apropiadas (cláusulas contractuales tipo)</li>
+                    <li>Siempre informaremos sobre estas transferencias</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>8. Menores de Edad</h2>
+                <div class="warning-box">
+                    <p><strong>Importante:</strong> No recopilamos intencionalmente datos de menores de 16 años sin consentimiento parental. Si detectamos datos de menores, los eliminaremos inmediatamente.</p>
+                </div>
+            </div>
+
+            <div class="privacy-section">
+                <h2>9. Cambios en esta Política</h2>
+                <p>Nos reservamos el derecho de actualizar esta política. Los cambios importantes serán notificados mediante:</p>
+                <ul>
+                    <li>Aviso prominente en el sitio web</li>
+                    <li>Email a usuarios registrados (si aplica)</li>
+                    <li>Actualización de la fecha de "última modificación"</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>10. Autoridad de Control</h2>
+                <p>Tiene derecho a presentar una reclamación ante la autoridad de control competente:</p>
+                <div class="contact-info">
+                    <p><strong>España:</strong> Agencia Española de Protección de Datos (AEPD)</p>
+                    <p><strong>Web:</strong> www.aepd.es</p>
+                    <p><strong>Teléfono:</strong> 901 100 099</p>
+                </div>
+            </div>
+
+            <div class="privacy-section">
+                <h2>11. Contacto</h2>
+                <p>Para cualquier consulta sobre privacidad y protección de datos:</p>
+                <div class="contact-info">
+                    <p><strong>Email principal:</strong> privacy@theclickandflush.com</p>
+                    <p><strong>Delegado de Protección de Datos:</strong> dpo@theclickandflush.com</p>
+                    <p><strong>Tiempo de respuesta:</strong> Máximo 72 horas</p>
+                    <p><strong>Idiomas:</strong> Español, Inglés</p>
+                </div>
+            </div>
+
+            <div class="last-updated">
+                <p>Última actualización: 11 de agosto de 2025</p>
+                <p>Versión: 1.0 - Conforme al RGPD</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

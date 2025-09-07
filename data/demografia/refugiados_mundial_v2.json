@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "refugiados_mundial_v2",
+    "title": "Población de Refugiados por Región de Asilo (1990-2025)",
+    "description": "Número de personas refugiadas y bajo el mandato de ACNUR, con resumen global y desglose por región de asilo.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "UNHCR (Alto Comisionado de las Naciones Unidas para los Refugiados)",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "1990/2025",
+    "spatial_coverage": "Global, por región de asilo",
+    "unit": "personas",
+    "frequency": "anual",
+    "breakdown_key": "region_asylum"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "region_asylum", "type": "string", "description": "Región geográfica de asilo" },
+    { "name": "value", "type": "integer", "description": "Número de refugiados y personas en situación similar" }
+  ],
+  "summary": [
+      { "year": 1990, "value": 20500000 },
+      { "year": 2000, "value": 27400000 },
+      { "year": 2010, "value": 26100000 },
+      { "year": 2020, "value": 43400000 },
+      { "year": 2023, "value": 53800000 },
+      { "year": 2025, "value": 56800000 }
+  ],
+  "breakdown": [
+    {"year": 1990, "region_asylum": "África", "value": 5400000},
+    {"year": 1990, "region_asylum": "Asia y Pacífico", "value": 6300000},
+    {"year": 1990, "region_asylum": "Europa", "value": 1700000},
+    {"year": 1990, "region_asylum": "América", "value": 1300000},
+    {"year": 1990, "region_asylum": "Medio Oriente y Norte de África", "value": 5800000},
+    {"year": 2000, "region_asylum": "África", "value": 6100000},
+    {"year": 2000, "region_asylum": "Asia y Pacífico", "value": 8500000},
+    {"year": 2000, "region_asylum": "Europa", "value": 5600000},
+    {"year": 2000, "region_asylum": "América", "value": 900000},
+    {"year": 2000, "region_asylum": "Medio Oriente y Norte de África", "value": 6300000},
+    {"year": 2010, "region_asylum": "África", "value": 4800000},
+    {"year": 2010, "region_asylum": "Asia y Pacífico", "value": 8900000},
+    {"year": 2010, "region_asylum": "Europa", "value": 4400000},
+    {"year": 2010, "region_asylum": "América", "value": 1100000},
+    {"year": 2010, "region_asylum": "Medio Oriente y Norte de África", "value": 7200000},
+    {"year": 2020, "region_asylum": "África", "value": 7700000},
+    {"year": 2020, "region_asylum": "Asia y Pacífico", "value": 10200000},
+    {"year": 2020, "region_asylum": "Europa", "value": 6700000},
+    {"year": 2020, "region_asylum": "América", "value": 4300000},
+    {"year": 2020, "region_asylum": "Medio Oriente y Norte de África", "value": 14500000},
+    {"year": 2023, "region_asylum": "África", "value": 8900000},
+    {"year": 2023, "region_asylum": "Asia y Pacífico", "value": 11500000},
+    {"year": 2023, "region_asylum": "Europa", "value": 12400000},
+    {"year": 2023, "region_asylum": "América", "value": 5200000},
+    {"year": 2023, "region_asylum": "Medio Oriente y Norte de África", "value": 15800000},
+    {"year": 2025, "region_asylum": "África", "value": 9500000},
+    {"year": 2025, "region_asylum": "Asia y Pacífico", "value": 12000000},
+    {"year": 2025, "region_asylum": "Europa", "value": 13000000},
+    {"year": 2025, "region_asylum": "América", "value": 5800000},
+    {"year": 2025, "region_asylum": "Medio Oriente y Norte de África", "value": 16500000}
+  ]
+}

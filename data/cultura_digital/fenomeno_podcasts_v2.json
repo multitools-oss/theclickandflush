@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "id": "fenomeno_podcasts_v2",
+    "title": "Fenómeno de los Podcasts (2018–2025)",
+    "description": "Explosión del audio digital: oyentes globales, ingresos publicitarios, podcasts activos y deals millonarios",
+    "source": "Spotify, Apple Podcasts, Google Podcasts, IAB, Edison Research",
+    "unit": "millones (oyentes/USD/podcasts)",
+    "temporal_coverage": "2018/2025",
+    "spatial_coverage": "Global, por métrica",
+    "last_updated": "2025-08-17",
+    "tags": ["podcasts", "Spotify", "Joe Rogan", "audio", "streaming", "publicidad"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "metric",
+    "breakdown_key": "metric"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "metric", "type": "string", "description": "Métrica del ecosistema de podcasts" },
+    { "name": "value", "type": "number", "description": "Valor de la métrica" }
+  ],
+  "summary": [
+    {"year": 2018, "value": 1448},
+    {"year": 2019, "value": 1969},
+    {"year": 2020, "value": 2747},
+    {"year": 2021, "value": 3789},
+    {"year": 2022, "value": 4923},
+    {"year": 2023, "value": 6234},
+    {"year": 2024, "value": 7845},
+    {"year": 2025, "value": 9567}
+  ],
+  "breakdown": [
+    {"year": 2018, "metric": "Oyentes Globales", "value": 274},
+    {"year": 2018, "metric": "Ingresos Publicidad (millones USD)", "value": 479},
+    {"year": 2018, "metric": "Podcasts Activos (miles)", "value": 550},
+    {"year": 2018, "metric": "Deals Exclusivos (millones USD)", "value": 45},
+    {"year": 2018, "metric": "Horas Escuchadas (millones)", "value": 100},
+    
+    {"year": 2019, "metric": "Oyentes Globales", "value": 347},
+    {"year": 2019, "metric": "Ingresos Publicidad (millones USD)", "value": 708},
+    {"year": 2019, "metric": "Podcasts Activos (miles)", "value": 700},
+    {"year": 2019, "metric": "Deals Exclusivos (millones USD)", "value": 89},
+    {"year": 2019, "metric": "Horas Escuchadas (millones)", "value": 125},
+    
+    {"year": 2020, "metric": "Oyentes Globales", "value": 464},
+    {"year": 2020, "metric": "Ingresos Publicidad (millones USD)", "value": 842},
+    {"year": 2020, "metric": "Podcasts Activos (miles)", "value": 1040},
+    {"year": 2020, "metric": "Deals Exclusivos (millones USD)", "value": 234},
+    {"year": 2020, "metric": "Horas Escuchadas (millones)", "value": 167},
+    
+    {"year": 2021, "metric": "Oyentes Globales", "value": 592},
+    {"year": 2021, "metric": "Ingresos Publicidad (millones USD)", "value": 1280},
+    {"year": 2021, "metric": "Podcasts Activos (miles)", "value": 1450},
+    {"year": 2021, "metric": "Deals Exclusivos (millones USD)", "value": 523},
+    {"year": 2021, "metric": "Horas Escuchadas (millones)", "value": 234},
+    
+    {"year": 2022, "metric": "Oyentes Globales", "value": 735},
+    {"year": 2022, "metric": "Ingresos Publicidad (millones USD)", "value": 1850},
+    {"year": 2022, "metric": "Podcasts Activos (miles)", "value": 1920},
+    {"year": 2022, "metric": "Deals Exclusivos (millones USD)", "value": 789},
+    {"year": 2022, "metric": "Horas Escuchadas (millones)", "value": 329},
+    
+    {"year": 2023, "metric": "Oyentes Globales", "value": 895},
+    {"year": 2023, "metric": "Ingresos Publicidad (millones USD)", "value": 2450},
+    {"year": 2023, "metric": "Podcasts Activos (miles)", "value": 2480},
+    {"year": 2023, "metric": "Deals Exclusivos (millones USD)", "value": 1034},
+    {"year": 2023, "metric": "Horas Escuchadas (millones)", "value": 465},
+    
+    {"year": 2024, "metric": "Oyentes Globales", "value": 1089},
+    {"year": 2024, "metric": "Ingresos Publicidad (millones USD)", "value": 3120},
+    {"year": 2024, "metric": "Podcasts Activos (miles)", "value": 3150},
+    {"year": 2024, "metric": "Deals Exclusivos (millones USD)", "value": 1345},
+    {"year": 2024, "metric": "Horas Escuchadas (millones)", "value": 641},
+    
+    {"year": 2025, "metric": "Oyentes Globales", "value": 1298},
+    {"year": 2025, "metric": "Ingresos Publicidad (millones USD)", "value": 3890},
+    {"year": 2025, "metric": "Podcasts Activos (miles)", "value": 3920},
+    {"year": 2025, "metric": "Deals Exclusivos (millones USD)", "value": 1678},
+    {"year": 2025, "metric": "Horas Escuchadas (millones)", "value": 781}
+  ]
+}

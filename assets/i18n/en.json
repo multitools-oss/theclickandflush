@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "language": "en",
+    "name": "English",
+    "flag": "🇺🇸"
+  },
+  "header": {
+    "title": "Statistics Observatory",
+    "subtitle": "Historical and current data with interactive visualizations",
+    "nav": {
+      "home": "Home",
+      "datasets": "Datasets",
+      "about": "About",
+      "legal": "Legal"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Explore 125 Years of World History",
+      "subtitle": "Verified data from 1900 to 2025. Population, economy, technology and environment in interactive visualizations.",
+      "cta": "Explore Data"
+    },
+    "categories": {
+      "title": "Data Categories",
+      "all": "All"
+    },
+    "datasets": {
+      "title": "Data Collections",
+      "subtitle": "Explore our collection of historical and current datasets",
+      "view_data": "View data",
+      "records": "data points",
+      "featured": "Popular",
+      "filters": "Filters",
+      "period": "Period:",
+      "coverage": "Coverage:",
+      "chart_types": "Available chart types"
+    }
+  },
+  "dataset": {
+    "loading": "Loading dataset...",
+    "error": "Error loading dataset",
+    "no_id": "No dataset ID specified in URL",
+    "not_found": "Dataset not found",
+    "controls": {
+      "year": "Year:",
+      "play": "Play animation",
+      "pause": "Pause animation",
+      "filter": "Filter by:",
+      "global": "Global"
+    },
+    "metadata": {
+      "title": "Dataset Information",
+      "description": "Description",
+      "temporal_coverage": "Temporal Coverage",
+      "spatial_coverage": "Spatial Coverage",
+      "source": "Source",
+      "updated": "Last Updated",
+      "download": "Download Data",
+      "fields": "Data Fields",
+      "source_info": "Source Information",
+      "last_updated": "Last Updated"
+    }
+  },
+  "categories": {
+    "demografia": "Demographics and Society",
+    "economia": "Economy and Finance",
+    "energia": "Energy and Environment",
+    "tecnologia": "Technology and Innovation",
+    "inteligencia_artificial": "Artificial Intelligence",
+    "clima_extremo": "Climate and Environmental Crisis",
+    "economia_digital": "Digital Economy",
+    "salud_futuro": "Health and Longevity",
+    "cultura_digital": "Digital Culture"
+  },
+  "footer": {
+    "copyright": "© 2025 Statistics Observatory. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "contact": "Contact"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "back": "Go back",
+    "close": "Close",
+    "search": "Search...",
+    "filter": "Filter",
+    "sort": "Sort",
+    "language": "Language"
+  }
+}

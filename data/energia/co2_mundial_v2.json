@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "id": "co2_mundial_v2",
+    "title": "Emisiones Globales de CO2 por Sector (1990-2025)",
+    "description": "Emisiones anuales de CO2 por quema de combustibles, con resumen global y desglose por sector.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "International Energy Agency (IEA), Global Carbon Project, Our World in Data",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "1990/2025",
+    "spatial_coverage": "Global",
+    "unit": "gigatoneladas de CO2 (GtCO2)",
+    "frequency": "variable",
+    "breakdown_key": "sector"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "sector", "type": "string", "description": "Sector de emisión" },
+    { "name": "value", "type": "number", "description": "Emisiones en gigatoneladas de CO2" }
+  ],
+  "summary": [
+      { "year": 1990, "value": 21.8 },
+      { "year": 2005, "value": 29.1 },
+      { "year": 2019, "value": 37.4 },
+      { "year": 2023, "value": 38.5 },
+      { "year": 2025, "value": 39.5 }
+  ],
+  "breakdown": [
+    {"year": 1990, "sector": "Generación de Electricidad y Calor", "value": 8.9},
+    {"year": 1990, "sector": "Transporte", "value": 4.5},
+    {"year": 1990, "sector": "Industria", "value": 5.1},
+    {"year": 1990, "sector": "Edificaciones (Residencial y Comercial)", "value": 2.3},
+    {"year": 1990, "sector": "Otros", "value": 1.0},
+    {"year": 2005, "sector": "Generación de Electricidad y Calor", "value": 12.2},
+    {"year": 2005, "sector": "Transporte", "value": 6.1},
+    {"year": 2005, "sector": "Industria", "value": 6.8},
+    {"year": 2005, "sector": "Edificaciones (Residencial y Comercial)", "value": 2.8},
+    {"year": 2005, "sector": "Otros", "value": 1.2},
+    {"year": 2019, "sector": "Generación de Electricidad y Calor", "value": 14.9},
+    {"year": 2019, "sector": "Transporte", "value": 8.5},
+    {"year": 2019, "sector": "Industria", "value": 9.2},
+    {"year": 2019, "sector": "Edificaciones (Residencial y Comercial)", "value": 3.3},
+    {"year": 2019, "sector": "Otros", "value": 1.5},
+    {"year": 2023, "sector": "Generación de Electricidad y Calor", "value": 15.5},
+    {"year": 2023, "sector": "Transporte", "value": 8.2},
+    {"year": 2023, "sector": "Industria", "value": 9.8},
+    {"year": 2023, "sector": "Edificaciones (Residencial y Comercial)", "value": 3.4},
+    {"year": 2023, "sector": "Otros", "value": 1.6},
+    {"year": 2025, "sector": "Generación de Electricidad y Calor", "value": 15.8},
+    {"year": 2025, "sector": "Transporte", "value": 8.4},
+    {"year": 2025, "sector": "Industria", "value": 10.1},
+    {"year": 2025, "sector": "Edificaciones (Residencial y Comercial)", "value": 3.5},
+    {"year": 2025, "sector": "Otros", "value": 1.7}
+  ]
+}

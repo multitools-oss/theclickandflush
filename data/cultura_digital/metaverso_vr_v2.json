@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "id": "metaverso_vr_v2",
+    "title": "Metaverso y Realidad Virtual (2020–2025)",
+    "description": "Adopción del metaverso y realidad virtual: usuarios activos, ventas de dispositivos, tiempo de uso e inversión",
+    "source": "Meta, Apple, HTC, Valve, VRChat, Horizon Worlds, industry reports",
+    "unit": "millones (usuarios/dispositivos/horas/USD)",
+    "temporal_coverage": "2020/2025",
+    "spatial_coverage": "Global, por métrica",
+    "last_updated": "2025-08-17",
+    "tags": ["metaverso", "VR", "realidad virtual", "Apple Vision Pro", "Meta Quest", "gaming"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "metric",
+    "breakdown_key": "metric"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "metric", "type": "string", "description": "Métrica de adopción VR/Metaverso" },
+    { "name": "value", "type": "number", "description": "Valor de la métrica (millones)" }
+  ],
+  "summary": [
+    {"year": 2020, "value": 85.2},
+    {"year": 2021, "value": 142.8},
+    {"year": 2022, "value": 198.5},
+    {"year": 2023, "value": 267.3},
+    {"year": 2024, "value": 345.7},
+    {"year": 2025, "value": 428.9}
+  ],
+  "breakdown": [
+    {"year": 2020, "metric": "Usuarios Activos VR", "value": 31.2},
+    {"year": 2020, "metric": "Headsets Vendidos", "value": 6.2},
+    {"year": 2020, "metric": "Horas Semanales Promedio", "value": 4.5},
+    {"year": 2020, "metric": "Inversión Sector (miles millones)", "value": 12.8},
+    {"year": 2020, "metric": "Aplicaciones VR Disponibles", "value": 30.5},
+    
+    {"year": 2021, "metric": "Usuarios Activos VR", "value": 57.8},
+    {"year": 2021, "metric": "Headsets Vendidos", "value": 11.2},
+    {"year": 2021, "metric": "Horas Semanales Promedio", "value": 6.8},
+    {"year": 2021, "metric": "Inversión Sector (miles millones)", "value": 22.3},
+    {"year": 2021, "metric": "Aplicaciones VR Disponibles", "value": 44.7},
+    
+    {"year": 2022, "metric": "Usuarios Activos VR", "value": 89.5},
+    {"year": 2022, "metric": "Headsets Vendidos", "value": 15.8},
+    {"year": 2022, "metric": "Horas Semanales Promedio", "value": 8.2},
+    {"year": 2022, "metric": "Inversión Sector (miles millones)", "value": 31.7},
+    {"year": 2022, "metric": "Aplicaciones VR Disponibles", "value": 53.3},
+    
+    {"year": 2023, "metric": "Usuarios Activos VR", "value": 125.6},
+    {"year": 2023, "metric": "Headsets Vendidos", "value": 22.4},
+    {"year": 2023, "metric": "Horas Semanales Promedio", "value": 9.8},
+    {"year": 2023, "metric": "Inversión Sector (miles millones)", "value": 45.2},
+    {"year": 2023, "metric": "Aplicaciones VR Disponibles", "value": 64.3},
+    
+    {"year": 2024, "metric": "Usuarios Activos VR", "value": 168.9},
+    {"year": 2024, "metric": "Headsets Vendidos", "value": 31.5},
+    {"year": 2024, "metric": "Horas Semanales Promedio", "value": 11.2},
+    {"year": 2024, "metric": "Inversión Sector (miles millones)", "value": 58.7},
+    {"year": 2024, "metric": "Aplicaciones VR Disponibles", "value": 75.4},
+    
+    {"year": 2025, "metric": "Usuarios Activos VR", "value": 215.8},
+    {"year": 2025, "metric": "Headsets Vendidos", "value": 42.3},
+    {"year": 2025, "metric": "Horas Semanales Promedio", "value": 12.8},
+    {"year": 2025, "metric": "Inversión Sector (miles millones)", "value": 72.5},
+    {"year": 2025, "metric": "Aplicaciones VR Disponibles", "value": 85.5}
+  ]
+}

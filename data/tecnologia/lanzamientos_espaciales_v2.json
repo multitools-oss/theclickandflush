@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "lanzamientos_espaciales_v2",
+    "title": "Lanzamientos Espaciales Mundiales (1957–2025)",
+    "description": "Número de lanzamientos espaciales exitosos por año, incluyendo satélites, misiones tripuladas y exploración espacial",
+    "source": "NASA, ESA, SpaceX, Roscosmos",
+    "unit": "lanzamientos",
+    "temporal_coverage": "1957/2025",
+    "spatial_coverage": "Global",
+    "last_updated": "2025-08-17",
+    "tags": ["espacio", "tecnología", "exploración", "satélites", "cohetes"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "agency",
+    "filters": [
+      {"id": "global", "name": "Global", "color": "#667eea"},
+      {"id": "nasa", "name": "NASA (USA)", "color": "#1e40af"},
+      {"id": "spacex", "name": "SpaceX", "color": "#059669"},
+      {"id": "roscosmos", "name": "Roscosmos (Rusia)", "color": "#dc2626"},
+      {"id": "esa", "name": "ESA (Europa)", "color": "#7c3aed"},
+      {"id": "china", "name": "CNSA (China)", "color": "#ea580c"},
+      {"id": "otros", "name": "Otros", "color": "#6b7280"}
+    ]
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "global", "type": "integer", "description": "Total global de lanzamientos espaciales" },
+    { "name": "spacex", "type": "integer", "description": "Lanzamientos de SpaceX" },
+    { "name": "nasa", "type": "integer", "description": "Lanzamientos de NASA" },
+    { "name": "china", "type": "integer", "description": "Lanzamientos de China" },
+    { "name": "rusia", "type": "integer", "description": "Lanzamientos de Rusia" },
+    { "name": "otros", "type": "integer", "description": "Lanzamientos de otras agencias" }
+  ],
+  "data": [
+    {"year": 1957, "global": 2, "nasa": 0, "spacex": 0, "roscosmos": 2, "esa": 0, "china": 0, "otros": 0},
+    {"year": 1958, "global": 5, "nasa": 3, "spacex": 0, "roscosmos": 1, "esa": 0, "china": 0, "otros": 1},
+    {"year": 1960, "global": 16, "nasa": 8, "spacex": 0, "roscosmos": 6, "esa": 0, "china": 0, "otros": 2},
+    {"year": 1965, "global": 63, "nasa": 28, "spacex": 0, "roscosmos": 30, "esa": 0, "china": 0, "otros": 5},
+    {"year": 1970, "global": 89, "nasa": 25, "spacex": 0, "roscosmos": 45, "esa": 2, "china": 1, "otros": 16},
+    {"year": 1975, "global": 102, "nasa": 22, "spacex": 0, "roscosmos": 55, "esa": 3, "china": 3, "otros": 19},
+    {"year": 1980, "global": 89, "nasa": 12, "spacex": 0, "roscosmos": 60, "esa": 4, "china": 4, "otros": 9},
+    {"year": 1985, "global": 121, "nasa": 17, "spacex": 0, "roscosmos": 75, "esa": 6, "china": 2, "otros": 21},
+    {"year": 1990, "global": 116, "nasa": 27, "spacex": 0, "roscosmos": 59, "esa": 8, "china": 5, "otros": 17},
+    {"year": 1995, "global": 83, "nasa": 22, "spacex": 0, "roscosmos": 32, "esa": 11, "china": 3, "otros": 15},
+    {"year": 2000, "global": 85, "nasa": 26, "spacex": 0, "roscosmos": 34, "esa": 12, "china": 5, "otros": 8},
+    {"year": 2005, "global": 55, "nasa": 16, "spacex": 0, "roscosmos": 26, "esa": 5, "china": 5, "otros": 3},
+    {"year": 2010, "global": 74, "nasa": 15, "spacex": 1, "roscosmos": 31, "esa": 6, "china": 15, "otros": 6},
+    {"year": 2012, "global": 78, "nasa": 13, "spacex": 2, "roscosmos": 24, "esa": 10, "china": 19, "otros": 10},
+    {"year": 2015, "global": 87, "nasa": 17, "spacex": 7, "roscosmos": 26, "esa": 11, "china": 19, "otros": 7},
+    {"year": 2017, "global": 90, "nasa": 18, "spacex": 18, "roscosmos": 19, "esa": 11, "china": 18, "otros": 6},
+    {"year": 2018, "global": 114, "nasa": 21, "spacex": 21, "roscosmos": 20, "esa": 8, "china": 39, "otros": 5},
+    {"year": 2019, "global": 102, "nasa": 13, "spacex": 13, "roscosmos": 25, "esa": 9, "china": 34, "otros": 8},
+    {"year": 2020, "global": 114, "nasa": 17, "spacex": 26, "roscosmos": 17, "esa": 3, "china": 35, "otros": 16},
+    {"year": 2021, "global": 145, "nasa": 15, "spacex": 31, "roscosmos": 15, "esa": 1, "china": 55, "otros": 28},
+    {"year": 2022, "global": 186, "nasa": 21, "spacex": 61, "roscosmos": 21, "esa": 5, "china": 64, "otros": 14},
+    {"year": 2023, "global": 223, "nasa": 19, "spacex": 98, "roscosmos": 19, "esa": 3, "china": 67, "otros": 17},
+    {"year": 2024, "global": 245, "nasa": 22, "spacex": 116, "roscosmos": 15, "esa": 4, "china": 68, "otros": 20},
+    {"year": 2025, "global": 280, "nasa": 25, "spacex": 135, "roscosmos": 18, "esa": 6, "china": 75, "otros": 21}
+  ]
+}

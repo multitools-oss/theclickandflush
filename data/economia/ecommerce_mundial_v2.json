@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "id": "ecommerce_mundial_v2",
+    "title": "Ventas de Comercio Electrónico (B2C) por Región (2015-2025)",
+    "description": "Ventas totales del comercio electrónico (B2C), con resumen global y desglose por región geográfica.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "eMarketer, Statista, UNCTAD, Insider Intelligence",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2015/2025",
+    "spatial_coverage": "Global, por región",
+    "unit": "billones de USD",
+    "frequency": "anual",
+    "breakdown_key": "region"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "region", "type": "string", "description": "Región geográfica" },
+    { "name": "value", "type": "number", "description": "Ventas en billones de USD" }
+  ],
+  "summary": [
+      { "year": 2015, "value": 1.61 },
+      { "year": 2019, "value": 3.58 },
+      { "year": 2021, "value": 4.93 },
+      { "year": 2023, "value": 6.09 },
+      { "year": 2025, "value": 7.65 }
+  ],
+  "breakdown": [
+    {"year": 2015, "region": "Asia-Pacífico", "value": 0.87},
+    {"year": 2015, "region": "América del Norte", "value": 0.37},
+    {"year": 2015, "region": "Europa", "value": 0.31},
+    {"year": 2015, "region": "América Latina", "value": 0.04},
+    {"year": 2015, "region": "Medio Oriente y África", "value": 0.02},
+    {"year": 2019, "region": "Asia-Pacífico", "value": 2.27},
+    {"year": 2019, "region": "América del Norte", "value": 0.65},
+    {"year": 2019, "region": "Europa", "value": 0.54},
+    {"year": 2019, "region": "América Latina", "value": 0.08},
+    {"year": 2019, "region": "Medio Oriente y África", "value": 0.05},
+    {"year": 2021, "region": "Asia-Pacífico", "value": 3.12},
+    {"year": 2021, "region": "América del Norte", "value": 0.89},
+    {"year": 2021, "region": "Europa", "value": 0.73},
+    {"year": 2021, "region": "América Latina", "value": 0.12},
+    {"year": 2021, "region": "Medio Oriente y África", "value": 0.07},
+    {"year": 2023, "region": "Asia-Pacífico", "value": 3.85},
+    {"year": 2023, "region": "América del Norte", "value": 1.11},
+    {"year": 2023, "region": "Europa", "value": 0.88},
+    {"year": 2023, "region": "América Latina", "value": 0.16},
+    {"year": 2023, "region": "Medio Oriente y África", "value": 0.09},
+    {"year": 2025, "region": "Asia-Pacífico", "value": 4.92},
+    {"year": 2025, "region": "América del Norte", "value": 1.35},
+    {"year": 2025, "region": "Europa", "value": 1.05},
+    {"year": 2025, "region": "América Latina", "value": 0.21},
+    {"year": 2025, "region": "Medio Oriente y África", "value": 0.12}
+  ]
+}

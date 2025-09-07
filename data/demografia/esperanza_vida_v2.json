@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "esperanza_vida_v2",
+    "title": "Esperanza de Vida al Nacer por Continente (1950–2025)",
+    "description": "Esperanza de vida media al nacer en años, con un resumen global y desglose por continente.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "World Health Organization (WHO), World Bank, UN",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "1950/2025",
+    "spatial_coverage": "Global, por continente",
+    "unit": "años",
+    "frequency": "quinquenal",
+    "breakdown_key": "continent"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "continent", "type": "string", "description": "Continente del registro" },
+    { "name": "value", "type": "number", "description": "Esperanza de vida en años" }
+  ],
+  "summary": [
+    { "year": 1950, "value": 45.7 },
+    { "year": 1975, "value": 59.8 },
+    { "year": 2000, "value": 66.5 },
+    { "year": 2020, "value": 72.6 },
+    { "year": 2023, "value": 73.4 },
+    { "year": 2025, "value": 74.1 }
+  ],
+  "breakdown": [
+    {"year": 1950, "continent": "África", "value": 36.7},
+    {"year": 1950, "continent": "Asia", "value": 41.4},
+    {"year": 1950, "continent": "Europa", "value": 65.6},
+    {"year": 1950, "continent": "América", "value": 51.4},
+    {"year": 1950, "continent": "Oceanía", "value": 60.9},
+    {"year": 1975, "continent": "África", "value": 47.8},
+    {"year": 1975, "continent": "Asia", "value": 57.5},
+    {"year": 1975, "continent": "Europa", "value": 71.2},
+    {"year": 1975, "continent": "América", "value": 62.3},
+    {"year": 1975, "continent": "Oceanía", "value": 67.8},
+    {"year": 2000, "continent": "África", "value": 52.4},
+    {"year": 2000, "continent": "Asia", "value": 67.8},
+    {"year": 2000, "continent": "Europa", "value": 75.4},
+    {"year": 2000, "continent": "América", "value": 71.1},
+    {"year": 2000, "continent": "Oceanía", "value": 74.9},
+    {"year": 2020, "continent": "África", "value": 63.1},
+    {"year": 2020, "continent": "Asia", "value": 73.6},
+    {"year": 2020, "continent": "Europa", "value": 80.5},
+    {"year": 2020, "continent": "América", "value": 75.2},
+    {"year": 2020, "continent": "Oceanía", "value": 79.1},
+    {"year": 2023, "continent": "África", "value": 64.2},
+    {"year": 2023, "continent": "Asia", "value": 74.5},
+    {"year": 2023, "continent": "Europa", "value": 81.2},
+    {"year": 2023, "continent": "América", "value": 76.0},
+    {"year": 2023, "continent": "Oceanía", "value": 80.0},
+    {"year": 2025, "continent": "África", "value": 65.0},
+    {"year": 2025, "continent": "Asia", "value": 75.1},
+    {"year": 2025, "continent": "Europa", "value": 81.8},
+    {"year": 2025, "continent": "América", "value": 76.8},
+    {"year": 2025, "continent": "Oceanía", "value": 80.5}
+  ]
+}

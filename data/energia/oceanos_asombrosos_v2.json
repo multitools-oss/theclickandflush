@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "id": "oceanos_asombrosos_v2",
+    "title": "Datos Asombrosos de los Océanos (1990–2025)",
+    "description": "Descubrimientos fascinantes sobre nuestros océanos: nuevas especies descubiertas, profundidad explorada, plástico acumulado y coral blanqueado",
+    "source": "NOAA, Ocean Conservancy, IUCN, National Geographic",
+    "unit": "especies/km²/toneladas/%",
+    "temporal_coverage": "1990/2025",
+    "spatial_coverage": "Océanos mundiales",
+    "last_updated": "2025-08-17",
+    "tags": ["océanos", "biodiversidad", "exploración", "contaminación", "coral"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "metric",
+    "filters": [
+      {"id": "global", "name": "Índice Global Oceánico", "color": "#0ea5e9"},
+      {"id": "especies", "name": "Nuevas Especies (miles)", "color": "#10b981"},
+      {"id": "exploracion", "name": "Océano Explorado (%)", "color": "#8b5cf6"},
+      {"id": "plastico", "name": "Plástico Oceánico (millones ton)", "color": "#dc2626"},
+      {"id": "coral", "name": "Coral Blanqueado (%)", "color": "#f59e0b"}
+    ]
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "temperatura", "type": "number", "description": "Temperatura promedio de océanos (°C)" },
+    { "name": "nivel_mar", "type": "number", "description": "Nivel del mar (mm sobre referencia)" },
+    { "name": "acidez", "type": "number", "description": "Nivel de acidez oceánica (pH)" },
+    { "name": "especies_nuevas", "type": "integer", "description": "Nuevas especies marinas descubiertas" },
+    { "name": "plastico", "type": "number", "description": "Microplásticos en océanos (millones de toneladas)" }
+  ],
+  "data": [
+    {"year": 1990, "global": 100, "especies": 15.2, "exploracion": 2.1, "plastico": 4.8, "coral": 8.5},
+    {"year": 1995, "global": 105, "especies": 18.7, "exploracion": 2.8, "plastico": 6.2, "coral": 12.3},
+    {"year": 2000, "global": 112, "especies": 22.4, "exploracion": 3.5, "plastico": 8.1, "coral": 16.8},
+    {"year": 2005, "global": 125, "especies": 28.9, "exploracion": 4.2, "plastico": 11.5, "coral": 22.4},
+    {"year": 2010, "global": 142, "especies": 35.6, "exploracion": 5.1, "plastico": 15.8, "coral": 29.7},
+    {"year": 2012, "global": 158, "especies": 41.2, "exploracion": 5.8, "plastico": 18.9, "coral": 34.2},
+    {"year": 2014, "global": 171, "especies": 47.8, "exploracion": 6.4, "plastico": 22.3, "coral": 38.9},
+    {"year": 2015, "global": 185, "especies": 52.1, "exploracion": 7.0, "plastico": 24.7, "coral": 42.1},
+    {"year": 2016, "global": 198, "especies": 58.4, "exploracion": 7.6, "plastico": 27.2, "coral": 45.8},
+    {"year": 2017, "global": 215, "especies": 64.7, "exploracion": 8.2, "plastico": 30.1, "coral": 49.3},
+    {"year": 2018, "global": 232, "especies": 71.3, "exploracion": 8.9, "plastico": 33.5, "coral": 52.7},
+    {"year": 2019, "global": 248, "especies": 78.2, "exploracion": 9.5, "plastico": 37.2, "coral": 56.4},
+    {"year": 2020, "global": 265, "especies": 85.6, "exploracion": 10.2, "plastico": 41.3, "coral": 60.1},
+    {"year": 2021, "global": 282, "especies": 93.4, "exploracion": 10.9, "plastico": 45.8, "coral": 63.9},
+    {"year": 2022, "global": 298, "especies": 101.7, "exploracion": 11.6, "plastico": 50.7, "coral": 67.2},
+    {"year": 2023, "global": 315, "especies": 110.3, "exploracion": 12.4, "plastico": 56.1, "coral": 70.8},
+    {"year": 2024, "global": 332, "especies": 119.2, "exploracion": 13.1, "plastico": 61.9, "coral": 74.3},
+    {"year": 2025, "global": 348, "especies": 128.5, "exploracion": 13.9, "plastico": 68.2, "coral": 77.9}
+  ]
+}

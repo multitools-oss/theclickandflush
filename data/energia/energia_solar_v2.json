@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "id": "energia_solar_v2",
+    "title": "Capacidad de Energía Solar Fotovoltaica por Región (2000-2025)",
+    "description": "Capacidad acumulada de energía solar fotovoltaica (PV), con resumen global y desglose por región.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "International Renewable Energy Agency (IRENA), BNEF",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2000/2025",
+    "spatial_coverage": "Global, por región",
+    "unit": "gigavatios (GW)",
+    "frequency": "variable",
+    "breakdown_key": "region"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "region", "type": "string", "description": "Región geográfica" },
+    { "name": "value", "type": "number", "description": "Capacidad instalada en GW" }
+  ],
+  "summary": [
+      { "year": 2000, "value": 1.4 },
+      { "year": 2010, "value": 35.3 },
+      { "year": 2015, "value": 234.3 },
+      { "year": 2020, "value": 716.6 },
+      { "year": 2023, "value": 1201.8 },
+      { "year": 2025, "value": 1700.0 }
+  ],
+  "breakdown": [
+    {"year": 2000, "region": "Europa", "value": 0.8},
+    {"year": 2000, "region": "Asia", "value": 0.3},
+    {"year": 2000, "region": "América del Norte", "value": 0.2},
+    {"year": 2000, "region": "Resto del Mundo", "value": 0.1},
+    {"year": 2010, "region": "Europa", "value": 22.7},
+    {"year": 2010, "region": "Asia", "value": 8.9},
+    {"year": 2010, "region": "América del Norte", "value": 2.6},
+    {"year": 2010, "region": "Resto del Mundo", "value": 1.1},
+    {"year": 2015, "region": "Asia", "value": 105.3},
+    {"year": 2015, "region": "Europa", "value": 97.5},
+    {"year": 2015, "region": "América del Norte", "value": 25.8},
+    {"year": 2015, "region": "Resto del Mundo", "value": 5.7},
+    {"year": 2020, "region": "Asia", "value": 455.2},
+    {"year": 2020, "region": "Europa", "value": 158.9},
+    {"year": 2020, "region": "América del Norte", "value": 77.4},
+    {"year": 2020, "region": "Resto del Mundo", "value": 25.1},
+    {"year": 2023, "region": "Asia", "value": 780.1},
+    {"year": 2023, "region": "Europa", "value": 250.3},
+    {"year": 2023, "region": "América del Norte", "value": 125.6},
+    {"year": 2023, "region": "Resto del Mundo", "value": 45.8},
+    {"year": 2025, "region": "Asia", "value": 1100.0},
+    {"year": 2025, "region": "Europa", "value": 350.0},
+    {"year": 2025, "region": "América del Norte", "value": 180.0},
+    {"year": 2025, "region": "Resto del Mundo", "value": 70.0}
+  ]
+}

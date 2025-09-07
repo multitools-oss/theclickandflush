@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "id": "renovables_mundial_v2",
+    "title": "Generación de Electricidad Renovable por Fuente (2000-2025)",
+    "description": "Porcentaje de la generación eléctrica mundial proveniente de fuentes renovables, con resumen global y desglose por tipo.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "International Energy Agency (IEA), REN21, Ember",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2000/2025",
+    "spatial_coverage": "Global",
+    "unit": "% de la generación eléctrica total",
+    "frequency": "variable",
+    "breakdown_key": "source"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "source", "type": "string", "description": "Fuente de energía renovable" },
+    { "name": "value", "type": "number", "description": "Porcentaje de la generación eléctrica" }
+  ],
+  "summary": [
+      { "year": 2000, "value": 18.8 },
+      { "year": 2010, "value": 20.4 },
+      { "year": 2020, "value": 29.3 },
+      { "year": 2023, "value": 32.8 },
+      { "year": 2025, "value": 36.5 }
+  ],
+  "breakdown": [
+    {"year": 2000, "source": "Hidroeléctrica", "value": 16.2},
+    {"year": 2000, "source": "Eólica", "value": 0.2},
+    {"year": 2000, "source": "Solar Fotovoltaica", "value": 0.01},
+    {"year": 2000, "source": "Bioenergía", "value": 1.3},
+    {"year": 2000, "source": "Geotérmica, Oceánica, etc.", "value": 0.3},
+    {"year": 2010, "source": "Hidroeléctrica", "value": 16.1},
+    {"year": 2010, "source": "Eólica", "value": 1.8},
+    {"year": 2010, "source": "Solar Fotovoltaica", "value": 0.2},
+    {"year": 2010, "source": "Bioenergía", "value": 1.9},
+    {"year": 2010, "source": "Geotérmica, Oceánica, etc.", "value": 0.4},
+    {"year": 2020, "source": "Hidroeléctrica", "value": 16.0},
+    {"year": 2020, "source": "Eólica", "value": 6.6},
+    {"year": 2020, "source": "Solar Fotovoltaica", "value": 3.7},
+    {"year": 2020, "source": "Bioenergía", "value": 2.5},
+    {"year": 2020, "source": "Geotérmica, Oceánica, etc.", "value": 0.5},
+    {"year": 2023, "source": "Hidroeléctrica", "value": 15.5},
+    {"year": 2023, "source": "Eólica", "value": 8.5},
+    {"year": 2023, "source": "Solar Fotovoltaica", "value": 5.5},
+    {"year": 2023, "source": "Bioenergía", "value": 2.8},
+    {"year": 2023, "source": "Geotérmica, Oceánica, etc.", "value": 0.5},
+    {"year": 2025, "source": "Hidroeléctrica", "value": 15.2},
+    {"year": 2025, "source": "Eólica", "value": 10.2},
+    {"year": 2025, "source": "Solar Fotovoltaica", "value": 7.5},
+    {"year": 2025, "source": "Bioenergía", "value": 3.0},
+    {"year": 2025, "source": "Geotérmica, Oceánica, etc.", "value": 0.6}
+  ]
+}

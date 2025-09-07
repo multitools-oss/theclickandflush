@@ -1,0 +1,32 @@
+{
+  "name": "observatorio-estadisticas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss-cli@latest build -i ./assets/input.css -o ./assets/output.css --minify",
+    "generate:sitemap": "node generate_sitemap.js",
+    "change:domain": "node change_domain.js",
+    "fix:datasets": "node fix_datasets.js",
+    "verify:datasets": "node verify_datasets.js",
+    "serve": "node serve.js",
+    "serve:python": "python3 serve.py",
+    "dev": "npm run serve",
+    "check:sitemap": "./check-sitemap.sh",
+    "test": "npm run test:json && npm run test:js && npm run test:html",
+    "test:json": "npx jsonlint-cli data/**/*.json",
+    "test:js": "npx eslint . --ext .js",
+    "test:html": "npx htmlhint **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.33.0",
+    "htmlhint": "^1.6.3",
+    "jsonlint": "^1.6.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  }
+}

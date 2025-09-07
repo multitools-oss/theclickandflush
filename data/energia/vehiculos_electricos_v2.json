@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "vehiculos_electricos_v2",
+    "title": "Ventas Anuales de Vehículos Eléctricos por Región (2010-2025)",
+    "description": "Ventas anuales de vehículos eléctricos (BEV y PHEV), con resumen global y desglose por mercado.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "International Energy Agency (IEA) Global EV Outlook, Canalys",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2010/2025",
+    "spatial_coverage": "Global, por región",
+    "unit": "millones de unidades",
+    "frequency": "anual",
+    "breakdown_key": "region"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "region", "type": "string", "description": "Región o país" },
+    { "name": "value", "type": "number", "description": "Millones de vehículos eléctricos vendidos" }
+  ],
+  "summary": [
+      { "year": 2010, "value": 0.012 },
+      { "year": 2015, "value": 0.54 },
+      { "year": 2018, "value": 2.0 },
+      { "year": 2020, "value": 3.17 },
+      { "year": 2022, "value": 10.0 },
+      { "year": 2023, "value": 13.3 },
+      { "year": 2025, "value": 20.0 }
+  ],
+  "breakdown": [
+    {"year": 2010, "region": "China", "value": 0.002},
+    {"year": 2010, "region": "Europa", "value": 0.007},
+    {"year": 2010, "region": "Estados Unidos", "value": 0.002},
+    {"year": 2010, "region": "Resto del Mundo", "value": 0.001},
+    {"year": 2015, "region": "China", "value": 0.21},
+    {"year": 2015, "region": "Europa", "value": 0.19},
+    {"year": 2015, "region": "Estados Unidos", "value": 0.11},
+    {"year": 2015, "region": "Resto del Mundo", "value": 0.03},
+    {"year": 2018, "region": "China", "value": 1.1},
+    {"year": 2018, "region": "Europa", "value": 0.41},
+    {"year": 2018, "region": "Estados Unidos", "value": 0.36},
+    {"year": 2018, "region": "Resto del Mundo", "value": 0.13},
+    {"year": 2020, "region": "China", "value": 1.3},
+    {"year": 2020, "region": "Europa", "value": 1.4},
+    {"year": 2020, "region": "Estados Unidos", "value": 0.33},
+    {"year": 2020, "region": "Resto del Mundo", "value": 0.14},
+    {"year": 2022, "region": "China", "value": 5.9},
+    {"year": 2022, "region": "Europa", "value": 2.7},
+    {"year": 2022, "region": "Estados Unidos", "value": 0.99},
+    {"year": 2022, "region": "Resto del Mundo", "value": 0.41},
+    {"year": 2023, "region": "China", "value": 8.1},
+    {"year": 2023, "region": "Europa", "value": 3.2},
+    {"year": 2023, "region": "Estados Unidos", "value": 1.4},
+    {"year": 2023, "region": "Resto del Mundo", "value": 0.6},
+    {"year": 2025, "region": "China", "value": 12.0},
+    {"year": 2025, "region": "Europa", "value": 4.5},
+    {"year": 2025, "region": "Estados Unidos", "value": 2.5},
+    {"year": 2025, "region": "Resto del Mundo", "value": 1.0}
+  ]
+}

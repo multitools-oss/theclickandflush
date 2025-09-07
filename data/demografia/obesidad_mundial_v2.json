@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "obesidad_mundial_v2",
+    "title": "Prevalencia de Obesidad en Adultos por Región (1975-2025)",
+    "description": "Porcentaje de la población adulta con un IMC de 30 o más, con resumen global y desglose por región.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "World Health Organization (WHO) Global Health Observatory, The Lancet",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "1975/2025",
+    "spatial_coverage": "Global, por región",
+    "unit": "% de población adulta",
+    "frequency": "variable",
+    "breakdown_key": "region"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "region", "type": "string", "description": "Región geográfica" },
+    { "name": "value", "type": "number", "description": "Porcentaje de adultos con obesidad" }
+  ],
+  "summary": [
+      { "year": 1975, "value": 5.4 },
+      { "year": 2000, "value": 9.8 },
+      { "year": 2016, "value": 13.1 },
+      { "year": 2023, "value": 16.2 },
+      { "year": 2025, "value": 17.5 }
+  ],
+  "breakdown": [
+    {"year": 1975, "region": "América", "value": 11.8},
+    {"year": 1975, "region": "Europa", "value": 9.5},
+    {"year": 1975, "region": "Mediterráneo Oriental", "value": 5.2},
+    {"year": 1975, "region": "Sudeste Asiático", "value": 1.1},
+    {"year": 1975, "region": "Pacífico Occidental", "value": 2.5},
+    {"year": 1975, "region": "África", "value": 2.8},
+    {"year": 2000, "region": "América", "value": 22.1},
+    {"year": 2000, "region": "Europa", "value": 18.4},
+    {"year": 2000, "region": "Mediterráneo Oriental", "value": 15.6},
+    {"year": 2000, "region": "Sudeste Asiático", "value": 3.9},
+    {"year": 2000, "region": "Pacífico Occidental", "value": 6.8},
+    {"year": 2000, "region": "África", "value": 7.1},
+    {"year": 2016, "region": "América", "value": 28.6},
+    {"year": 2016, "region": "Europa", "value": 23.3},
+    {"year": 2016, "region": "Mediterráneo Oriental", "value": 22.5},
+    {"year": 2016, "region": "Sudeste Asiático", "value": 6.2},
+    {"year": 2016, "region": "Pacífico Occidental", "value": 8.9},
+    {"year": 2016, "region": "África", "value": 10.8},
+    {"year": 2023, "region": "América", "value": 31.5},
+    {"year": 2023, "region": "Europa", "value": 25.8},
+    {"year": 2023, "region": "Mediterráneo Oriental", "value": 26.1},
+    {"year": 2023, "region": "Sudeste Asiático", "value": 7.9},
+    {"year": 2023, "region": "Pacífico Occidental", "value": 10.5},
+    {"year": 2023, "region": "África", "value": 13.2},
+    {"year": 2025, "region": "América", "value": 32.8},
+    {"year": 2025, "region": "Europa", "value": 26.9},
+    {"year": 2025, "region": "Mediterráneo Oriental", "value": 27.8},
+    {"year": 2025, "region": "Sudeste Asiático", "value": 8.8},
+    {"year": 2025, "region": "Pacífico Occidental", "value": 11.4},
+    {"year": 2025, "region": "África", "value": 14.5}
+  ]
+}

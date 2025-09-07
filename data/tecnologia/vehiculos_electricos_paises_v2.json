@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "id": "vehiculos_electricos_paises_v2",
+    "title": "Adopción de Vehículos Eléctricos por País (2015–2025)",
+    "description": "Ventas anuales de vehículos eléctricos por los principales mercados mundiales",
+    "source": "IEA Global EV Outlook, BloombergNEF, EV-Volumes.com",
+    "unit": "millones de vehículos vendidos",
+    "temporal_coverage": "2015/2025",
+    "spatial_coverage": "Global, por país/región",
+    "last_updated": "2025-08-17",
+    "tags": ["vehículos eléctricos", "Tesla", "BYD", "China", "sostenibilidad"],
+    "chart_types": ["line", "bar"],
+    "has_filters": true,
+    "filter_field": "country",
+    "breakdown_key": "country"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "country", "type": "string", "description": "País o región" },
+    { "name": "value", "type": "number", "description": "Ventas de vehículos eléctricos (millones)" }
+  ],
+  "summary": [
+    {"year": 2015, "value": 0.55},
+    {"year": 2016, "value": 0.75},
+    {"year": 2017, "value": 1.22},
+    {"year": 2018, "value": 2.18},
+    {"year": 2019, "value": 2.89},
+    {"year": 2020, "value": 3.24},
+    {"year": 2021, "value": 6.75},
+    {"year": 2022, "value": 10.52},
+    {"year": 2023, "value": 14.08},
+    {"year": 2024, "value": 17.85},
+    {"year": 2025, "value": 22.30}
+  ],
+  "breakdown": [
+    {"year": 2015, "country": "China", "value": 0.25},
+    {"year": 2015, "country": "Estados Unidos", "value": 0.12},
+    {"year": 2015, "country": "Europa", "value": 0.15},
+    {"year": 2015, "country": "Japón", "value": 0.02},
+    {"year": 2015, "country": "Otros", "value": 0.01},
+    
+    {"year": 2016, "country": "China", "value": 0.35},
+    {"year": 2016, "country": "Estados Unidos", "value": 0.16},
+    {"year": 2016, "country": "Europa", "value": 0.19},
+    {"year": 2016, "country": "Japón", "value": 0.03},
+    {"year": 2016, "country": "Otros", "value": 0.02},
+    
+    {"year": 2017, "country": "China", "value": 0.68},
+    {"year": 2017, "country": "Estados Unidos", "value": 0.20},
+    {"year": 2017, "country": "Europa", "value": 0.25},
+    {"year": 2017, "country": "Japón", "value": 0.05},
+    {"year": 2017, "country": "Otros", "value": 0.04},
+    
+    {"year": 2018, "country": "China", "value": 1.26},
+    {"year": 2018, "country": "Estados Unidos", "value": 0.36},
+    {"year": 2018, "country": "Europa", "value": 0.39},
+    {"year": 2018, "country": "Japón", "value": 0.08},
+    {"year": 2018, "country": "Otros", "value": 0.09},
+    
+    {"year": 2019, "country": "China", "value": 1.20},
+    {"year": 2019, "country": "Estados Unidos", "value": 0.33},
+    {"year": 2019, "country": "Europa", "value": 0.56},
+    {"year": 2019, "country": "Japón", "value": 0.09},
+    {"year": 2019, "country": "Otros", "value": 0.71},
+    
+    {"year": 2020, "country": "China", "value": 1.37},
+    {"year": 2020, "country": "Estados Unidos", "value": 0.30},
+    {"year": 2020, "country": "Europa", "value": 1.39},
+    {"year": 2020, "country": "Japón", "value": 0.03},
+    {"year": 2020, "country": "Otros", "value": 0.15},
+    
+    {"year": 2021, "country": "China", "value": 3.52},
+    {"year": 2021, "country": "Estados Unidos", "value": 0.63},
+    {"year": 2021, "country": "Europa", "value": 2.27},
+    {"year": 2021, "country": "Japón", "value": 0.04},
+    {"year": 2021, "country": "Otros", "value": 0.29},
+    
+    {"year": 2022, "country": "China", "value": 6.89},
+    {"year": 2022, "country": "Estados Unidos", "value": 0.92},
+    {"year": 2022, "country": "Europa", "value": 2.32},
+    {"year": 2022, "country": "Japón", "value": 0.06},
+    {"year": 2022, "country": "Otros", "value": 0.33},
+    
+    {"year": 2023, "country": "China", "value": 9.49},
+    {"year": 2023, "country": "Estados Unidos", "value": 1.43},
+    {"year": 2023, "country": "Europa", "value": 2.71},
+    {"year": 2023, "country": "Japón", "value": 0.09},
+    {"year": 2023, "country": "Otros", "value": 0.36},
+    
+    {"year": 2024, "country": "China", "value": 11.85},
+    {"year": 2024, "country": "Estados Unidos", "value": 1.89},
+    {"year": 2024, "country": "Europa", "value": 3.45},
+    {"year": 2024, "country": "Japón", "value": 0.12},
+    {"year": 2024, "country": "Otros", "value": 0.54},
+    
+    {"year": 2025, "country": "China", "value": 14.20},
+    {"year": 2025, "country": "Estados Unidos", "value": 2.58},
+    {"year": 2025, "country": "Europa", "value": 4.35},
+    {"year": 2025, "country": "Japón", "value": 0.18},
+    {"year": 2025, "country": "Otros", "value": 0.99}
+  ]
+}

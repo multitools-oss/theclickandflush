@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "id": "gig_economy_v2",
+    "title": "Trabajadores de la Economía Gig por Sector (2016-2025)",
+    "description": "Estimación del número de trabajadores en la economía gig, con resumen global y desglose por sector.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "Mastercard, Statista, World Bank, ADP Research Institute",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2016/2025",
+    "spatial_coverage": "Global",
+    "unit": "millones de trabajadores",
+    "frequency": "anual",
+    "breakdown_key": "sector"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "sector", "type": "string", "description": "Sector de la economía gig" },
+    { "name": "value", "type": "number", "description": "Millones de trabajadores" }
+  ],
+  "summary": [
+      { "year": 2016, "value": 140 },
+      { "year": 2020, "value": 235 },
+      { "year": 2023, "value": 328 },
+      { "year": 2025, "value": 395 }
+  ],
+  "breakdown": [
+    {"year": 2016, "sector": "Transporte (ej. Uber, Lyft)", "value": 35},
+    {"year": 2016, "sector": "Servicios Creativos y Profesionales (ej. Upwork, Fiverr)", "value": 45},
+    {"year": 2016, "sector": "Entregas (ej. Glovo, Rappi)", "value": 20},
+    {"year": 2016, "sector": "Tareas Domésticas y Microtareas", "value": 25},
+    {"year": 2016, "sector": "Otros", "value": 15},
+    {"year": 2020, "sector": "Transporte (ej. Uber, Lyft)", "value": 55},
+    {"year": 2020, "sector": "Servicios Creativos y Profesionales (ej. Upwork, Fiverr)", "value": 70},
+    {"year": 2020, "sector": "Entregas (ej. Glovo, Rappi)", "value": 45},
+    {"year": 2020, "sector": "Tareas Domésticas y Microtareas", "value": 40},
+    {"year": 2020, "sector": "Otros", "value": 25},
+    {"year": 2023, "sector": "Transporte (ej. Uber, Lyft)", "value": 78},
+    {"year": 2023, "sector": "Servicios Creativos y Profesionales (ej. Upwork, Fiverr)", "value": 95},
+    {"year": 2023, "sector": "Entregas (ej. Glovo, Rappi)", "value": 65},
+    {"year": 2023, "sector": "Tareas Domésticas y Microtareas", "value": 55},
+    {"year": 2023, "sector": "Otros", "value": 35},
+    {"year": 2025, "sector": "Transporte (ej. Uber, Lyft)", "value": 90},
+    {"year": 2025, "sector": "Servicios Creativos y Profesionales (ej. Upwork, Fiverr)", "value": 110},
+    {"year": 2025, "sector": "Entregas (ej. Glovo, Rappi)", "value": 80},
+    {"year": 2025, "sector": "Tareas Domésticas y Microtareas", "value": 65},
+    {"year": 2025, "sector": "Otros", "value": 45}
+  ]
+}

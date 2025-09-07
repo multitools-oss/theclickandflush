@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "id": "desastres_naturales_v2",
+    "title": "Desastres Naturales por Región (1980–2025)",
+    "description": "Número de desastres naturales registrados mundialmente con desglose por región",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "EM-DAT (The International Disaster Database), CRED, UNDRR",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "1980/2025",
+    "spatial_coverage": "Global, por región",
+    "unit": "número de eventos",
+    "frequency": "quinquenal",
+    "breakdown_key": "region"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "region", "type": "string", "description": "Región geográfica" },
+    { "name": "value", "type": "integer", "description": "Número de desastres naturales registrados" }
+  ],
+  "summary": [
+    { "year": 1980, "value": 180 },
+    { "year": 1985, "value": 220 },
+    { "year": 1990, "value": 280 },
+    { "year": 1995, "value": 340 },
+    { "year": 2000, "value": 420 },
+    { "year": 2005, "value": 480 },
+    { "year": 2010, "value": 520 },
+    { "year": 2015, "value": 580 },
+    { "year": 2020, "value": 640 },
+    { "year": 2025, "value": 680 }
+  ],
+  "breakdown": [
+    {"year": 1980, "region": "Asia", "value": 65},
+    {"year": 1980, "region": "América", "value": 45},
+    {"year": 1980, "region": "África", "value": 35},
+    {"year": 1980, "region": "Europa", "value": 25},
+    {"year": 1980, "region": "Oceanía", "value": 10},
+    
+    {"year": 1985, "region": "Asia", "value": 80},
+    {"year": 1985, "region": "América", "value": 55},
+    {"year": 1985, "region": "África", "value": 42},
+    {"year": 1985, "region": "Europa", "value": 30},
+    {"year": 1985, "region": "Oceanía", "value": 13},
+    
+    {"year": 1990, "region": "Asia", "value": 105},
+    {"year": 1990, "region": "América", "value": 70},
+    {"year": 1990, "region": "África", "value": 52},
+    {"year": 1990, "region": "Europa", "value": 35},
+    {"year": 1990, "region": "Oceanía", "value": 18},
+    
+    {"year": 1995, "region": "Asia", "value": 125},
+    {"year": 1995, "region": "América", "value": 85},
+    {"year": 1995, "region": "África", "value": 65},
+    {"year": 1995, "region": "Europa", "value": 45},
+    {"year": 1995, "region": "Oceanía", "value": 20},
+    
+    {"year": 2000, "region": "Asia", "value": 155},
+    {"year": 2000, "region": "América", "value": 105},
+    {"year": 2000, "region": "África", "value": 80},
+    {"year": 2000, "region": "Europa", "value": 55},
+    {"year": 2000, "region": "Oceanía", "value": 25},
+    
+    {"year": 2005, "region": "Asia", "value": 175},
+    {"year": 2005, "region": "América", "value": 120},
+    {"year": 2005, "region": "África", "value": 95},
+    {"year": 2005, "region": "Europa", "value": 65},
+    {"year": 2005, "region": "Oceanía", "value": 25},
+    
+    {"year": 2010, "region": "Asia", "value": 190},
+    {"year": 2010, "region": "América", "value": 130},
+    {"year": 2010, "region": "África", "value": 105},
+    {"year": 2010, "region": "Europa", "value": 70},
+    {"year": 2010, "region": "Oceanía", "value": 25},
+    
+    {"year": 2015, "region": "Asia", "value": 210},
+    {"year": 2015, "region": "América", "value": 145},
+    {"year": 2015, "region": "África", "value": 120},
+    {"year": 2015, "region": "Europa", "value": 75},
+    {"year": 2015, "region": "Oceanía", "value": 30},
+    
+    {"year": 2020, "region": "Asia", "value": 235},
+    {"year": 2020, "region": "América", "value": 160},
+    {"year": 2020, "region": "África", "value": 135},
+    {"year": 2020, "region": "Europa", "value": 80},
+    {"year": 2020, "region": "Oceanía", "value": 30},
+    
+    {"year": 2025, "region": "Asia", "value": 250},
+    {"year": 2025, "region": "América", "value": 170},
+    {"year": 2025, "region": "África", "value": 145},
+    {"year": 2025, "region": "Europa", "value": 85},
+    {"year": 2025, "region": "Oceanía", "value": 30}
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "id": "inversion_ia_v1",
+    "title": "Inversión Privada en Inteligencia Artificial por Sector (2018-2025)",
+    "description": "Inversión privada global en startups de inteligencia artificial, desagregada por el sector de aplicación.",
+    "version": "2.0",
+    "updated": "2025-08-10",
+    "source": "Stanford Institute for Human-Centered AI (HAI), CB Insights",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2018/2025",
+    "spatial_coverage": "Global",
+    "unit": "miles de millones de USD",
+    "frequency": "anual"
+  },
+  "fields": [
+    {
+      "name": "year",
+      "type": "integer",
+      "description": "Año del registro"
+    },
+    {
+      "name": "sector",
+      "type": "string",
+      "description": "Sector de aplicación de la IA"
+    },
+    {
+      "name": "value",
+      "type": "number",
+      "description": "Inversión en miles de millones de USD"
+    }
+  ],
+  "data": [
+    {"year": 2018, "sector": "Fintech y Seguros", "value": 12.5},
+    {"year": 2018, "sector": "Salud y Biotecnología", "value": 8.9},
+    {"year": 2018, "sector": "Retail y eCommerce", "value": 7.1},
+    {"year": 2018, "sector": "Vehículos Autónomos", "value": 9.3},
+    {"year": 2018, "sector": "Ciberseguridad y Datos", "value": 5.4},
+    {"year": 2018, "sector": "Otros", "value": 10.2},
+    {"year": 2021, "sector": "Fintech y Seguros", "value": 25.1},
+    {"year": 2021, "sector": "Salud y Biotecnología", "value": 20.5},
+    {"year": 2021, "sector": "Retail y eCommerce", "value": 15.8},
+    {"year": 2021, "sector": "Vehículos Autónomos", "value": 12.4},
+    {"year": 2021, "sector": "Ciberseguridad y Datos", "value": 10.2},
+    {"year": 2021, "sector": "Otros", "value": 25.6},
+    {"year": 2023, "sector": "IA Generativa", "value": 25.2},
+    {"year": 2023, "sector": "Fintech y Seguros", "value": 18.9},
+    {"year": 2023, "sector": "Salud y Biotecnología", "value": 15.3},
+    {"year": 2023, "sector": "Ciberseguridad y Datos", "value": 12.1},
+    {"year": 2023, "sector": "Vehículos Autónomos", "value": 8.5},
+    {"year": 2023, "sector": "Otros", "value": 19.8},
+    {"year": 2025, "sector": "IA Generativa", "value": 45.0},
+    {"year": 2025, "sector": "Fintech y Seguros", "value": 28.0},
+    {"year": 2025, "sector": "Salud y Biotecnología", "value": 22.5},
+    {"year": 2025, "sector": "Ciberseguridad y Datos", "value": 18.0},
+    {"year": 2025, "sector": "Vehículos Autónomos", "value": 15.0},
+    {"year": 2025, "sector": "Otros", "value": 30.0}
+  ]
+}

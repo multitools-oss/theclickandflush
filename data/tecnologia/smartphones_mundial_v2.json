@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "id": "smartphones_mundial_v2",
+    "title": "Cuota de Mercado de Sistemas Operativos Móviles (2010–2025)",
+    "description": "Porcentaje de la cuota de mercado mundial de sistemas operativos para smartphones",
+    "version": "2.1",
+    "updated": "2025-08-17",
+    "source": "IDC, StatCounter Global Stats, Gartner",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2010/2025",
+    "spatial_coverage": "Global, por sistema operativo",
+    "unit": "% de cuota de mercado",
+    "frequency": "anual",
+    "has_filters": true,
+    "filter_field": "os"
+  },
+  "fields": [
+    {
+      "name": "year",
+      "type": "integer",
+      "description": "Año del registro"
+    },
+    {
+      "name": "os",
+      "type": "string",
+      "description": "Sistema Operativo"
+    },
+    {
+      "name": "value",
+      "type": "number",
+      "description": "Porcentaje de cuota de mercado"
+    }
+  ],
+  "data": [
+    {"year": 2010, "os": "Symbian", "value": 37.6},
+    {"year": 2010, "os": "BlackBerry OS", "value": 16.1},
+    {"year": 2010, "os": "Android", "value": 22.7},
+    {"year": 2010, "os": "iOS", "value": 15.7},
+    {"year": 2010, "os": "Windows Phone", "value": 4.2},
+    {"year": 2010, "os": "Otros", "value": 3.7},
+    
+    {"year": 2012, "os": "Android", "value": 68.8},
+    {"year": 2012, "os": "iOS", "value": 18.8},
+    {"year": 2012, "os": "BlackBerry OS", "value": 4.6},
+    {"year": 2012, "os": "Windows Phone", "value": 2.6},
+    {"year": 2012, "os": "Symbian", "value": 3.2},
+    {"year": 2012, "os": "Otros", "value": 2.0},
+    
+    {"year": 2015, "os": "Android", "value": 72.2},
+    {"year": 2015, "os": "iOS", "value": 20.9},
+    {"year": 2015, "os": "Windows Phone", "value": 2.5},
+    {"year": 2015, "os": "BlackBerry OS", "value": 0.3},
+    {"year": 2015, "os": "Symbian", "value": 0.0},
+    {"year": 2015, "os": "Otros", "value": 4.1},
+    
+    {"year": 2018, "os": "Android", "value": 75.8},
+    {"year": 2018, "os": "iOS", "value": 22.9},
+    {"year": 2018, "os": "Windows Phone", "value": 0.1},
+    {"year": 2018, "os": "BlackBerry OS", "value": 0.0},
+    {"year": 2018, "os": "Symbian", "value": 0.0},
+    {"year": 2018, "os": "Otros", "value": 1.2},
+    
+    {"year": 2020, "os": "Android", "value": 72.8},
+    {"year": 2020, "os": "iOS", "value": 26.4},
+    {"year": 2020, "os": "Windows Phone", "value": 0.0},
+    {"year": 2020, "os": "BlackBerry OS", "value": 0.0},
+    {"year": 2020, "os": "Symbian", "value": 0.0},
+    {"year": 2020, "os": "Otros", "value": 0.8},
+    
+    {"year": 2022, "os": "Android", "value": 71.8},
+    {"year": 2022, "os": "iOS", "value": 27.6},
+    {"year": 2022, "os": "Windows Phone", "value": 0.0},
+    {"year": 2022, "os": "BlackBerry OS", "value": 0.0},
+    {"year": 2022, "os": "Symbian", "value": 0.0},
+    {"year": 2022, "os": "Otros", "value": 0.6},
+    
+    {"year": 2023, "os": "Android", "value": 71.5},
+    {"year": 2023, "os": "iOS", "value": 27.8},
+    {"year": 2023, "os": "Windows Phone", "value": 0.0},
+    {"year": 2023, "os": "BlackBerry OS", "value": 0.0},
+    {"year": 2023, "os": "Symbian", "value": 0.0},
+    {"year": 2023, "os": "Otros", "value": 0.7},
+    
+    {"year": 2024, "os": "Android", "value": 70.8},
+    {"year": 2024, "os": "iOS", "value": 28.4},
+    {"year": 2024, "os": "Windows Phone", "value": 0.0},
+    {"year": 2024, "os": "BlackBerry OS", "value": 0.0},
+    {"year": 2024, "os": "Symbian", "value": 0.0},
+    {"year": 2024, "os": "Otros", "value": 0.8},
+    
+    {"year": 2025, "os": "Android", "value": 70.5},
+    {"year": 2025, "os": "iOS", "value": 28.8},
+    {"year": 2025, "os": "Windows Phone", "value": 0.0},
+    {"year": 2025, "os": "BlackBerry OS", "value": 0.0},
+    {"year": 2025, "os": "Symbian", "value": 0.0},
+    {"year": 2025, "os": "Otros", "value": 0.7}
+  ]
+}

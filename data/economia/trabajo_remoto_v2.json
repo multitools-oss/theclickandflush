@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "trabajo_remoto_v2",
+    "title": "Adopción del Trabajo Remoto por Región (2015-2025)",
+    "description": "Porcentaje de la fuerza laboral que trabaja de forma remota, con resumen global y desglose por región.",
+    "version": "2.1",
+    "updated": "2025-08-11",
+    "source": "Gallup, Eurostat, Statista, FlexJobs, Owl Labs",
+    "license": "CC BY 4.0",
+    "temporal_coverage": "2015/2025",
+    "spatial_coverage": "Global, por región",
+    "unit": "% de la fuerza laboral",
+    "frequency": "anual",
+    "breakdown_key": "region"
+  },
+  "fields": [
+    { "name": "year", "type": "integer", "description": "Año del registro" },
+    { "name": "region", "type": "string", "description": "Región geográfica" },
+    { "name": "value", "type": "number", "description": "Porcentaje de trabajadores remotos" }
+  ],
+  "summary": [
+      { "year": 2015, "value": 9.2 },
+      { "year": 2019, "value": 12.8 },
+      { "year": 2020, "value": 32.1 },
+      { "year": 2021, "value": 35.8 },
+      { "year": 2023, "value": 28.4 },
+      { "year": 2025, "value": 26.9 }
+  ],
+  "breakdown": [
+    {"year": 2015, "region": "América del Norte", "value": 15.2},
+    {"year": 2015, "region": "Europa", "value": 11.8},
+    {"year": 2015, "region": "Asia-Pacífico", "value": 8.5},
+    {"year": 2015, "region": "América Latina", "value": 6.7},
+    {"year": 2015, "region": "África y Medio Oriente", "value": 5.1},
+    {"year": 2019, "region": "América del Norte", "value": 18.9},
+    {"year": 2019, "region": "Europa", "value": 15.3},
+    {"year": 2019, "region": "Asia-Pacífico", "value": 11.2},
+    {"year": 2019, "region": "América Latina", "value": 9.1},
+    {"year": 2019, "region": "África y Medio Oriente", "value": 7.2},
+    {"year": 2020, "region": "América del Norte", "value": 45.1},
+    {"year": 2020, "region": "Europa", "value": 40.2},
+    {"year": 2020, "region": "Asia-Pacífico", "value": 28.3},
+    {"year": 2020, "region": "América Latina", "value": 25.4},
+    {"year": 2020, "region": "África y Medio Oriente", "value": 18.9},
+    {"year": 2021, "region": "América del Norte", "value": 48.5},
+    {"year": 2021, "region": "Europa", "value": 43.8},
+    {"year": 2021, "region": "Asia-Pacífico", "value": 32.1},
+    {"year": 2021, "region": "América Latina", "value": 29.8},
+    {"year": 2021, "region": "África y Medio Oriente", "value": 22.5},
+    {"year": 2023, "region": "América del Norte", "value": 38.2},
+    {"year": 2023, "region": "Europa", "value": 35.1},
+    {"year": 2023, "region": "Asia-Pacífico", "value": 25.6},
+    {"year": 2023, "region": "América Latina", "value": 22.4},
+    {"year": 2023, "region": "África y Medio Oriente", "value": 18.1},
+    {"year": 2025, "region": "América del Norte", "value": 35.5},
+    {"year": 2025, "region": "Europa", "value": 32.8},
+    {"year": 2025, "region": "Asia-Pacífico", "value": 24.2},
+    {"year": 2025, "region": "América Latina", "value": 21.0},
+    {"year": 2025, "region": "África y Medio Oriente", "value": 17.5}
+  ]
+}

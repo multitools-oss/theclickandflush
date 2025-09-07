@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://theclickandflush.com/sitemap.xml
+
+# Archivos específicos
+Allow: /dataset.html
+Allow: /data/
+Allow: /assets/
+
+# Evitar indexar archivos de desarrollo
+Disallow: /node_modules/
+Disallow: /package.json
+Disallow: /README.md
+
+# Permitir motores de búsqueda principales
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
